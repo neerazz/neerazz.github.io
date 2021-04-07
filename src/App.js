@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import 'rsuite/dist/styles/rsuite-default.css';
+import MySidebar from "./components/Sidebar";
+import Introduction from "./components/Introduction";
+import { Container, Header, Content, Footer, Sidebar, Divider} from "rsuite";
+// import About from "./components/About";
+// import Projects from "./components/Projects";
+// import Blog from "./components/Blog";
+import Timeline from "./components/Timeline";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Container>
+          <Sidebar>
+            <MySidebar></MySidebar>
+          </Sidebar>
+          <Divider vertical />
+          <Container>
+            <Header>Header</Header>
+            <Content>
+              {/* <About></About> */}
+              {/* <Projects></Projects> */}
+              {/* <Blog></Blog> */}
+              <Introduction></Introduction>
+              <Timeline></Timeline>
+            </Content>
+            <Footer>Footer</Footer>
+          </Container>
+        </Container>
+      </div>
+    );
+  }
 }
 
 export default App;
