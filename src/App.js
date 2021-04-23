@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
 import 'rsuite/dist/styles/rsuite-default.css';
 import MySidebar from "./components/Sidebar";
@@ -9,17 +9,15 @@ import { Container, Header, Content, Footer, Sidebar, Divider} from "rsuite";
 // import Blog from "./components/Blog";
 import Timeline from "./components/Timeline";
 
-class App extends Component {
+class App extends React.Component {
   render() {
+    // var sideBarStyle = { "height": "100vh" };
     return (
       <div>
         <Container>
           <Sidebar>
             <MySidebar></MySidebar>
           </Sidebar>
-          <Divider vertical />
-          <Container>
-            <Header>Header</Header>
             <Content>
               {/* <About></About> */}
               {/* <Projects></Projects> */}
@@ -27,8 +25,6 @@ class App extends Component {
               <Introduction></Introduction>
               <Timeline></Timeline>
             </Content>
-            <Footer>Footer</Footer>
-          </Container>
         </Container>
       </div>
     );
