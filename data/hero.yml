@@ -1,13 +1,17 @@
 ---
 enable: true
-topTitle: Hello, I am Natasha
+topTitle: Learn share & experience tabla
 content: >
-  # I am here for your personal business
+  ## S B Singh Tabla Academy Highlights
 
-  Enjoy team diversity and increase their networks among others people
-  in various fields by
-buttonName: Contact me
-buttonURL: contact
-image: images/hero/2960351.jpg
-videoThumb: images/hero/popup-thumb.png
-videoURL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  #### - Individual attention given to students.
+
+  #### - Flexible timings and scheduling.
+
+  #### - Remote learning during COVID-19.
+
+buttonName: Contact Me
+buttonURL: href="tel:+918884283969"
+image: images/hero/sbsingh.png
+videoThumb: images/hero/youtube-hero.png
+videoURL: https://www.youtube.com/watch?v=BdhB9k5K6TY
