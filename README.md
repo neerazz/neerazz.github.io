@@ -1,3 +1,1 @@
-# A static site built with HUGO
-
-https://tablaustad.com/
+# [Visit My Portfolio](https://neerazz.github.io/)
