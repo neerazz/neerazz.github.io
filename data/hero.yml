@@ -1,17 +1,9 @@
 ---
 enable: true
-topTitle: Learn share & experience tabla
+topTitle: Hello, I am Neeraj
 content: >
-  ## S B Singh Tabla Academy Highlights
-
-  #### - Individual attention given to students.
-
-  #### - Flexible timings and scheduling.
-
-  #### - Remote learning during COVID-19.
+  ### Decade-long software engineer with experience in disruptive technology.
 
 buttonName: Contact Me
-buttonURL: href="tel:+918884283969"
+buttonURL: href="tel:+17246337250"
 image: images/hero/sbsingh.png
-videoThumb: images/hero/youtube-hero.png
-videoURL: https://www.youtube.com/watch?v=BdhB9k5K6TY

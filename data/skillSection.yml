@@ -1,17 +1,23 @@
 ---
-enable: false
+enable: true
 topTitle: My Skills
 content: >
   ## Why hire me for your next project?
 
-  My goal is to build a strong supportive professional network among all freelancers and startups in order to improve their performance.
+  My goal is to build a strong supportive professional network among all software engineers and freelancers in order to solve problems.
 
 image: images/skill/skill_image.jpg
 
 skill:
-  - title: HTML
-    percent: 69
-  - title: CSS
-    percent: 60
-  - title: Javascript
+  - title: Java, Groovy
     percent: 85
+  - title: Spring (Boot, JPA, MVC, Security, Cloud) Hibernate
+    percent: 80
+  - title: Spock, Mokito, JUnit
+    percent: 70
+  - title: CI/CD (GIT, Jenkins, Docker, Kubernetes)
+    percent: 60
+  - title: Databases (Oracle, MySQL, Cassandra, DB2)
+    percent: 50
+  - title: Monitoring Tools (AppDynamics, Splunk, )
+    percent: 50

@@ -4,55 +4,53 @@ topTitle: My Resume
 title: >
   ## My Expertises
 
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore  
+  - Flexible and versatile to adapt to any new technologies, environment with an ability to work independently or in a group.
+  
+  - Proven track record in software development for the financial industry, technology innovation, analytics, process improvement, understanding customer requirements and translate given need or data into meaningful insights within deadlines.
 
-
-  Magna aliquyam erat, sed diam voluptua. At vero eos accusam justo.
 tab1Name: Education
-tab2Name: Experiences
 tab1Target: education
+tab2Name: Experiences
 tab2Target: experience
 
 education:
   - content: >
-      #### Master in Arts
+      #### BACHELOR OF TECHNOLOGY
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
-  - content: >
-      #### Master in Arts
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
-  - content: >
-      #### Master in Arts
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
-  - content: >
-      #### Master in Arts
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+      Specialized in **Electrical & Electronics Engineering** in First Class with distinction.
+    time: 2007-2011
 
 experience:
   - content: >
-      #### Umbrella co. 
+      #### Escrow Specialty Accounting Portal, JPMorgan 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2016-Present
+      - Architectured and developed various Scalable, Secure and Reliable **GraphQL** & **RESTful** microservices APIs with Java stack for Cloud applications.
+
+      - Developed reusable framework to stream logs with a distributed trace for a better observability.
+
+    time: 2019-Present
   - content: >
-      #### Aperture Science 
+      #### International Insurance Services, American Express 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2010-2016
+      - Re-engineered the monolith application by:
+        - **Cutting the number of lines of code by 60%** in most of the services and,
+        - Boosting the response time from 1.5 sec to 500 ms, a **200% performance improvement**.
+
+      - Developed RESTful & SOAP Web Services to be consumed by UI and automated voice service, to retrieve claims and status of the calling user.
+
+    time: 2016-2019
   - content: >
-      #### ACME Inc. 
+      #### International Membership Rewards, & LAC, American Express
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2005-2010
+      - Migrated existing COBOL modules business logic to Java code using frameworks like JSP, Spring MVC, Spring Security, and Hibernate.
+
+      - Headed team during requirement Analysis, Design, Implementation, Testing, and Documentation.
+    time: 2013-2016
   - content: >
-      #### LexCorp 
+      #### LAC, American Express
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2001-2005
+      - **Ensuring system availability**, Monitoring the application logs, batch process, and making sure that all the deliverables SLA’s are met.
+
+      - **Investigated user raised**, automated alerts and failure issues to diagnose the **root cause and troubleshoot the production issues** as soon as possible for the stability of the application.
+
+    time: 2011-2013
