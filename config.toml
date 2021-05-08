@@ -1,4 +1,4 @@
-baseURL = "https://www.tablaustad.com/"
+baseURL = "https://neerazz.github.io/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
@@ -14,7 +14,7 @@ name = "About"
 url = "#about"
 weight = 2
 [[menu.main]]
-name = "Work"
+name = "My Work"
 url = "#service"
 weight = 3
 # [[menu.main]]
@@ -39,10 +39,6 @@ weight = 2
 name = "Work"
 url = "#service"
 weight = 3
-[[menu.sitemap]]
-name = "Latest Article"
-url = "#"
-weight = 4
 
 [params]
 blogPageURL = "blog"
@@ -57,7 +53,7 @@ logo = "images/site-navigation/logo.png"
 address = "10410 Highland Manor Dr, Tampa, FL 33610"
 email = "b.neerajkumarsingh@gmail.com"
 openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
-phone = "+(1) 724 633 7250"
+phone = "+(1) 724-NEERAJ-0"
 
 [params.map]
 APIkey = "AIzaSyBcj-CHmXBuE3yGrqMzorjZZkGtb127LNU"
