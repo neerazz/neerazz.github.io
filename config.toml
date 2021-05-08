@@ -2,7 +2,7 @@ baseURL = "https://www.tablaustad.com/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
-title = "Portio"
+title = "Neeraj"
 
 # Main Menu
 [[menu.main]]
@@ -29,15 +29,15 @@ weight = 5
 # Sitemap Menu
 [[menu.sitemap]]
 name = "About me"
-url = "about"
+url = "/#about"
 weight = 1
 [[menu.sitemap]]
-name = "Frequently Ask Question"
-url = "#"
+name = "Contact"
+url = "/contact"
 weight = 2
 [[menu.sitemap]]
-name = "Privacy & Policy"
-url = "#"
+name = "Work"
+url = "#service"
 weight = 3
 [[menu.sitemap]]
 name = "Latest Article"
@@ -47,37 +47,37 @@ weight = 4
 [params]
 blogPageURL = "blog"
 contactLink = "contact"
-copyright = "All right reserved copyright © Portio 2020"
+copyright = "All right reserved copyright © Portio 2021"
 footerLogo = "images/contact/widget-logo.png"
-formspreeURL = "YOUR FORMSPREE URL"
-googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
+# formspreeURL = "YOUR FORMSPREE URL"
+# googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 logo = "images/site-navigation/logo.png"
 
 [params.address]
-address = "23 Khan Niketon, Grand Street, NYK."
-email = "hello@example.com"
+address = "10410 Highland Manor Dr, Tampa, FL 33610"
+email = "b.neerajkumarsingh@gmail.com"
 openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
-phone = "+(448) 833 5272 332"
+phone = "+(1) 724 633 7250"
 
 [params.map]
-APIkey = "YOUR GOOGLE MAP API"
-latitude = "23.7783741"
-longitude = "90.3746808"
+APIkey = "AIzaSyBcj-CHmXBuE3yGrqMzorjZZkGtb127LNU"
+latitude = "27.987025102504646"
+longitude = "-82.32838968470132"
 pinImage = "images/pin.png"
 
 # Social icons
 [[params.social]]
-icon = "fa-facebook-official"
-url = "https://www.facebook.com/"
+icon = "fa-github-square"
+url = "https://github.com/neerazz"
 weight = 1
 [[params.social]]
 icon = "fa-linkedin-square"
 url = "https://www.linkedin.com/"
 weight = 2
 [[params.social]]
-icon = "fa-pinterest-square"
-url = "https://www.pinterest.com/"
+icon = "fa-hacker-news"
+url = "https://leetcode.com/neerazz90/"
 weight = 3
-[[params.social]]
-icon = "fa-twitter-square"
-url = "https://twitter.com/"
+# [[params.social]]
+# icon = "fa-twitter-square"
+# url = "https://twitter.com/"
