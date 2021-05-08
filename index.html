@@ -1,1 +1,643 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/Portfolio/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/Portfolio/logo192.png"/><link rel="manifest" href="/Portfolio/manifest.json"/><title>React App</title><link href="/Portfolio/static/css/main.1635e87c.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function r(r){for(var n,i,a=r[0],c=r[1],l=r[2],p=0,s=[];p<a.length;p++)i=a[p],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in c)Object.prototype.hasOwnProperty.call(c,n)&&(e[n]=c[n]);for(f&&f(r);s.length;)s.shift()();return u.push.apply(u,l||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,a=1;a<t.length;a++){var c=t[a];0!==o[c]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.e=function(e){var r=[],t=o[e];if(0!==t)if(t)r.push(t[2]);else{var n=new Promise((function(r,n){t=o[e]=[r,n]}));r.push(t[2]=n);var u,a=document.createElement("script");a.charset="utf-8",a.timeout=120,i.nc&&a.setAttribute("nonce",i.nc),a.src=function(e){return i.p+"static/js/"+({}[e]||e)+"."+{3:"e0e712fc"}[e]+".chunk.js"}(e);var c=new Error;u=function(r){a.onerror=a.onload=null,clearTimeout(l);var t=o[e];if(0!==t){if(t){var n=r&&("load"===r.type?"missing":r.type),u=r&&r.target&&r.target.src;c.message="Loading chunk "+e+" failed.\n("+n+": "+u+")",c.name="ChunkLoadError",c.type=n,c.request=u,t[1](c)}o[e]=void 0}};var l=setTimeout((function(){u({type:"timeout",target:a})}),12e4);a.onerror=a.onload=u,document.head.appendChild(a)}return Promise.all(r)},i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="/Portfolio/",i.oe=function(e){throw console.error(e),e};var a=this["webpackJsonpneeraj-portfolio"]=this["webpackJsonpneeraj-portfolio"]||[],c=a.push.bind(a);a.push=r,a=a.slice();for(var l=0;l<a.length;l++)r(a[l]);var f=c;t()}([])</script><script src="/Portfolio/static/js/2.5c9f6e48.chunk.js"></script><script src="/Portfolio/static/js/main.e8fa8a3c.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="generator" content="Hugo 0.82.1" />
+  <meta charset="utf-8" />
+  <title>Neeraj</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="https://neerazz.github.io/plugins/slick/slick.css" />
+  <link rel="stylesheet" href="https://neerazz.github.io/plugins/slick/slick-theme.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://neerazz.github.io/plugins/font-awesome/css/font-awesome.min.css" />
+
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="https://neerazz.github.io/plugins/magnafic-popup/magnific-popup.css" />
+
+  <!-- Stylesheets -->
+  
+  <link href="https://neerazz.github.io/scss/style.min.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://neerazz.github.io/images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="https://neerazz.github.io/images/favicon.png" type="image/x-icon" />
+  
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a href="https://neerazz.github.io/" class="navbar-brand">
+      <img src="https://neerazz.github.io/images/site-navigation/logo.png" alt="site-logo">
+    </a>
+    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+      <ul class="nav navbar-nav main-navigation my-0 mx-auto">
+        
+        
+        <li class="nav-item">
+          <a href="https://neerazz.github.io/#home"
+            class="nav-link text-dark text-sm-center p-2 scroll">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="https://neerazz.github.io/#about"
+            class="nav-link text-dark text-sm-center p-2 scroll">About</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="https://neerazz.github.io/#service"
+            class="nav-link text-dark text-sm-center p-2 scroll">My Work</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="https://neerazz.github.io/#contact"
+            class="nav-link text-dark text-sm-center p-2 scroll">Contact</a>
+        </li>
+        
+      </ul>
+      <div class="navbar-nav">
+        <a href="https://neerazz.github.io/contact" class="btn btn-primary btn-zoom hire_button">Hire Me Now</a>
+      </div>
+    </div>
+  </div>
+</nav>
+  <div id="content">
+    
+
+
+
+<section class="hero" id="home">
+  <div class="hero_background-svg">
+    <svg viewBox="0 0 1437 1180">
+      <path fill="#f1f6f9" d="M0 0h1377l60 1010a120 120 0 01-120 120L0 1180z" data-name="Path 1350" />
+    </svg>
+  </div>
+  <div class="hero_footer-svg">
+    <img src="images/hero/figure-svg.svg" alt="" />
+  </div>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="hero_content">
+          <div class="hero_blob">
+            <svg viewBox="0 0 550 550">
+              <defs>
+                <linearGradient id="a" x1=".069" x2=".753" y1=".116" y2=".858" gradientUnits="objectBoundingBox">
+                  <stop offset="0" stop-color="#fff" />
+                  <stop offset="1" stop-color="#fff" stop-opacity=".012" />
+                </linearGradient>
+              </defs>
+              <g data-name="blob-shape (3)">
+                <path class="blob" fill="url(#a)"
+                  d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z" />
+              </g>
+            </svg>
+          </div>
+          <div class="mb-5">
+            <span class="top-title pre-line">Hello, I am Neeraj</span>
+            <h3 id="decade-long-software-engineer-with-experience-in-disruptive-technology">Decade-long software engineer with experience in disruptive technology.</h3>
+
+          </div>
+          <a type="button" class="btn btn-lg btn-primary btn-zoom"
+            href="https://neerazz.github.io/contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="hero_figure">
+          <div class="figure-svg">
+            <img src="images/hero/figure-svg.svg" alt="figure-svg" />
+          </div>
+          <img src="https://neerazz.github.io/images/hero/neeraj_close.JPG" alt="hero-image" style='
+                  -webkit-mask: url(https://neerazz.github.io/images/hero/hero-mask-svg.png);
+                  -webkit-mask-repeat: no-repeat;
+                  -webkit-mask-size: contain;
+                  -webkit-mask-position: center center;
+                ' />
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="section about" id="about">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="about_header mb-5">
+                    <span class="top-title">About</span>
+                    <h2 id="about-me">About me</h2>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="about_content">
+                    <div class="about_content-thumb">
+                        <div class="about-svg">
+                            <img src="images/hero/figure-svg.svg" alt="figure-svg">
+                        </div>
+                        <div class="about_content-thumb-image">
+                            <img src="https://neerazz.github.io/images/hero/neeraj_build.jpg" alt="about-img"
+                                style='-webkit-mask: url(https://neerazz.github.io/images/about/about-mask-svg.svg); -webkit-mask-size: contain;'>
+                        </div>
+                    </div>
+                    <div class="about_content-inner">
+                        <div class="about_content-inner-blob">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 600 600">
+                                <defs>
+                                    <linearGradient id="c" x1="0.929" y1="0.111" x2="0.263" y2="0.935"
+                                        gradientUnits="objectBoundingBox">
+                                        <stop offset="0" stop-color="#f1f6f9" />
+                                        <stop offset="1" stop-color="#f1f6f9" stop-opacity="0" />
+                                    </linearGradient>
+                                </defs>
+                                <g data-name="blob-shape (3)">
+                                    <path class="blob" fill="url(#c)"
+                                        d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z" />
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="mb-4 text-light">
+                            <h3 id="i-design-and-build-ultimate-things">I design and build ultimate things.</h3>
+<h5 id="a-detail-oriented-responsible-and-committed-it-professional-specialized-in-back-end-development-infrastructure-automation">A Detail-oriented, responsible, and committed IT professional specialized in back-end development, infrastructure automation.</h5>
+<h5 id="my-love-towards-problem-solving-and-get-it-done-attitude-help-me-solve-the-design-problem-and-find-easy-and-better-solutions">My love towards problem solving and get-it-done attitude help me solve the design problem and find easy and better solutions.</h5>
+
+                        </div>
+                        <div>
+                            <a class="btn btn-primary mr-3 btn-zoom"
+                                href="https://github.com/neerazz">View My Work</a>
+                            <a class="btn btn-outline-primary btn-zoom" href="https://neerazz.github.io/contact">
+                                Download CV </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="section service" id="service">
+    <div class="service__background">
+        <svg viewBox="0 0 1283 1126">
+            <path fill="#f1f6f9" d="M100 0h1183v1126l-1183-80A100 100 0 010 946V100A100 100 0 01100 0z"
+                data-name="Path 1369" />
+        </svg>
+    </div>
+    <div class="service__background_shape">
+        <svg viewBox="0 0 550 550">
+            <defs>
+                <linearGradient id="b" x1="0.209" y1="0.085" x2="1.071" y2="1.164" gradientUnits="objectBoundingBox">
+                    <stop offset="0" stop-color="#f1f6f9" />
+                    <stop offset="1" stop-color="#f1f6f9" stop-opacity="0" />
+                </linearGradient>
+            </defs>
+            <g data-name="blob-shape (3)">
+                <path class="blob" fill="url(#b)"
+                    d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z" />
+            </g>
+        </svg>
+    </div>
+
+    <div class="service__background_pattern">
+        <img src="images/service/background-pattern.svg" alt="background-pattern">
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="service__header mb-5">
+                    <span class="top-title pre-line">Working Area</span>
+                    <h2 id="my-expertises">My Expertises</h2>
+<p>Proven track record in software development for the financial industry, technology innovation, analytics, process improvement, understanding customer requirements and translate given need or data into meaningful insights within deadlines.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="service__slider">
+                    
+                    
+                    <div class="service__slider_item">
+                        <div class="service__slider_item-icon">
+                            <div class="icon-background">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702"
+                                    viewBox="0 0 122.457 109.702">
+                                    <path fill="#f1f6f9"
+                                        d="M49.855527 9.984102c-4.337424-.815024-8.766002-1.633779-13.152776-1.113889-8.196034.975107-15.344329 6.696991-19.41555 13.879649s-5.363288 15.655094-5.187042 23.907191c.156996 7.385448 1.479849 14.875357 4.972905 21.38465s9.337384 11.961229 16.458344 13.922244c4.833752 1.331211 10.056683 1.044827 14.74081 2.829827 7.560693 2.881382 12.209757 10.489626 19.01235 14.870016a25.650039 25.650039 0 0024.16316 1.698928c8.342551-3.846451 14.03857-12.107291 16.641338-20.918947s2.471077-18.187687 1.756125-27.346305c-.843101-10.912846-3.01686-22.783019-11.354287-29.869462-6.037066-5.130853-14.208558-6.772976-21.995428-8.235353z"
+                                        data-name="Path 1354" />
+                                </svg>
+                            </div>
+                            <div class="icon">
+                                <img src=" https://neerazz.github.io/images/service/branding.svg " alt="ui-ux">
+                            </div>
+                        </div>
+                        <div class="mt-5">
+                            <h4 id="escrow-specialty-accounting-portal-jpmorgan">Escrow Specialty Accounting Portal, JPMorgan</h4>
+<h5 id="2019-present">2019-Present</h5>
+<ul>
+<li>Architectured &amp; developed Scalable and Secure <strong>GraphQL</strong> &amp; <strong>RESTful</strong> microservices APIs with Java stack for Cloud applications.</li>
+<li>Developed reusable framework to stream logs with a distributed trace for a better <strong>observability</strong>.</li>
+</ul>
+
+                        </div>
+                    </div>
+                    
+                    <div class="service__slider_item">
+                        <div class="service__slider_item-icon">
+                            <div class="icon-background">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702"
+                                    viewBox="0 0 122.457 109.702">
+                                    <path fill="#f1f6f9"
+                                        d="M49.855527 9.984102c-4.337424-.815024-8.766002-1.633779-13.152776-1.113889-8.196034.975107-15.344329 6.696991-19.41555 13.879649s-5.363288 15.655094-5.187042 23.907191c.156996 7.385448 1.479849 14.875357 4.972905 21.38465s9.337384 11.961229 16.458344 13.922244c4.833752 1.331211 10.056683 1.044827 14.74081 2.829827 7.560693 2.881382 12.209757 10.489626 19.01235 14.870016a25.650039 25.650039 0 0024.16316 1.698928c8.342551-3.846451 14.03857-12.107291 16.641338-20.918947s2.471077-18.187687 1.756125-27.346305c-.843101-10.912846-3.01686-22.783019-11.354287-29.869462-6.037066-5.130853-14.208558-6.772976-21.995428-8.235353z"
+                                        data-name="Path 1354" />
+                                </svg>
+                            </div>
+                            <div class="icon">
+                                <img src=" https://neerazz.github.io/images/service/creative.svg " alt="ui-ux">
+                            </div>
+                        </div>
+                        <div class="mt-5">
+                            <h4 id="international-insurance-services-american-express">International Insurance Services, American Express</h4>
+<h5 id="2016-2019">2016-2019</h5>
+<ul>
+<li>Re-engineered the monolith application by boosting the response time from 1.5 sec to 500 ms, a <strong>200% performance improvement</strong>.</li>
+<li>Developed RESTful &amp; SOAP Web Services to be consumed by UI and automated voice service, to retrieve claims and status of the calling user.</li>
+</ul>
+
+                        </div>
+                    </div>
+                    
+                    <div class="service__slider_item">
+                        <div class="service__slider_item-icon">
+                            <div class="icon-background">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702"
+                                    viewBox="0 0 122.457 109.702">
+                                    <path fill="#f1f6f9"
+                                        d="M49.855527 9.984102c-4.337424-.815024-8.766002-1.633779-13.152776-1.113889-8.196034.975107-15.344329 6.696991-19.41555 13.879649s-5.363288 15.655094-5.187042 23.907191c.156996 7.385448 1.479849 14.875357 4.972905 21.38465s9.337384 11.961229 16.458344 13.922244c4.833752 1.331211 10.056683 1.044827 14.74081 2.829827 7.560693 2.881382 12.209757 10.489626 19.01235 14.870016a25.650039 25.650039 0 0024.16316 1.698928c8.342551-3.846451 14.03857-12.107291 16.641338-20.918947s2.471077-18.187687 1.756125-27.346305c-.843101-10.912846-3.01686-22.783019-11.354287-29.869462-6.037066-5.130853-14.208558-6.772976-21.995428-8.235353z"
+                                        data-name="Path 1354" />
+                                </svg>
+                            </div>
+                            <div class="icon">
+                                <img src=" https://neerazz.github.io/images/service/ui-ux.svg " alt="ui-ux">
+                            </div>
+                        </div>
+                        <div class="mt-5">
+                            <h4 id="international-membership-rewards--lac-american-express">International Membership Rewards, &amp; LAC, American Express</h4>
+<h5 id="2013-2016">2013-2016</h5>
+<ul>
+<li>Migrated existing COBOL modules business logic to Java code using frameworks like JSP, Spring MVC, Spring Security, and Hibernate.</li>
+<li>Headed team during requirement Analysis, Design, Implementation, Testing, and Documentation.</li>
+</ul>
+
+                        </div>
+                    </div>
+                    
+                    <div class="service__slider_item">
+                        <div class="service__slider_item-icon">
+                            <div class="icon-background">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702"
+                                    viewBox="0 0 122.457 109.702">
+                                    <path fill="#f1f6f9"
+                                        d="M49.855527 9.984102c-4.337424-.815024-8.766002-1.633779-13.152776-1.113889-8.196034.975107-15.344329 6.696991-19.41555 13.879649s-5.363288 15.655094-5.187042 23.907191c.156996 7.385448 1.479849 14.875357 4.972905 21.38465s9.337384 11.961229 16.458344 13.922244c4.833752 1.331211 10.056683 1.044827 14.74081 2.829827 7.560693 2.881382 12.209757 10.489626 19.01235 14.870016a25.650039 25.650039 0 0024.16316 1.698928c8.342551-3.846451 14.03857-12.107291 16.641338-20.918947s2.471077-18.187687 1.756125-27.346305c-.843101-10.912846-3.01686-22.783019-11.354287-29.869462-6.037066-5.130853-14.208558-6.772976-21.995428-8.235353z"
+                                        data-name="Path 1354" />
+                                </svg>
+                            </div>
+                            <div class="icon">
+                                <img src=" https://neerazz.github.io/images/service/web.svg " alt="ui-ux">
+                            </div>
+                        </div>
+                        <div class="mt-5">
+                            <h4 id="lac-american-express">LAC, American Express</h4>
+<h5 id="2011-2013">2011-2013</h5>
+<ul>
+<li><strong>Ensuring system availability</strong>, Monitoring the application logs, batch process, and making sure that all the deliverables SLA’s are met.</li>
+<li><strong>Investigated user raised</strong>, automated alerts and failure issues to diagnose the <strong>root cause and troubleshoot the production issues</strong> as soon as possible for the stability of the application.</li>
+</ul>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="section skill">
+    <div class="skill__background_shape">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
+            <defs>
+                <linearGradient id="d" x1="0.929" y1="0.111" x2="0.263" y2="0.935" gradientUnits="objectBoundingBox">
+                    <stop offset="0" stop-color="#f1f6f9" />
+                    <stop offset="1" stop-color="#f1f6f9" stop-opacity="0" />
+                </linearGradient>
+            </defs>
+            <g data-name="blob-shape (3)">
+                <path class="blob" fill="url(#d)"
+                    d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z" />
+            </g>
+        </svg>
+    </div>
+    <div class="skill__background_pattern">
+        <img src="images/service/background-pattern.svg" alt="background-shape">
+    </div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="skill__thumb">
+                    <div class="skill__thumb_pattern">
+                        <img src="images/hero/figure-svg.svg" alt="figure-svg">
+                    </div>
+                    <div class="skill__thumb_image">
+                        <img src="https://neerazz.github.io/images/hero/neeraj_full.JPG" alt="skill-img" style='
+                                        -webkit-mask: url(https://neerazz.github.io/images/skill/skill-mask-svg.svg);
+                                        -webkit-mask-repeat: no-repeat;
+                                        -webkit-mask-size: contain;
+                                        -webkit-mask-position: center center;
+                                    '>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="skill__progress">
+                    <div class="skill__progress_heading mb-5">
+                        <span class="top-title pre-line">My Skills</span>
+                        <h2 id="why-hire-me-for-your-next-project">Why hire me for your next project?</h2>
+<p>My goal is to build a strong supportive professional network among all software engineers and freelancers in order to solve problems.
+                    </div>
+                    
+                    
+                    <div class="skill__progress_item">
+                        <span class="d-inline-block text-dark"> Java, Groovy </span>
+                        <div class="progress-value float-right"><span>85</span>%</div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:85%;" aria-valuemin="0"
+                                aria-valuemax="85"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill__progress_item">
+                        <span class="d-inline-block text-dark"> Spring (Boot, JPA, MVC, Security, Cloud) Hibernate </span>
+                        <div class="progress-value float-right"><span>80</span>%</div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:80%;" aria-valuemin="0"
+                                aria-valuemax="80"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill__progress_item">
+                        <span class="d-inline-block text-dark"> Spock, Mokito, JUnit </span>
+                        <div class="progress-value float-right"><span>70</span>%</div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:70%;" aria-valuemin="0"
+                                aria-valuemax="70"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill__progress_item">
+                        <span class="d-inline-block text-dark"> CI/CD (GIT, Jenkins, Docker, Kubernetes) </span>
+                        <div class="progress-value float-right"><span>60</span>%</div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:60%;" aria-valuemin="0"
+                                aria-valuemax="60"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill__progress_item">
+                        <span class="d-inline-block text-dark"> Databases (Oracle, MySQL, Cassandra, DB2) </span>
+                        <div class="progress-value float-right"><span>50</span>%</div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:50%;" aria-valuemin="0"
+                                aria-valuemax="50"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill__progress_item">
+                        <span class="d-inline-block text-dark"> Monitoring Tools (AppDynamics, Splunk, ) </span>
+                        <div class="progress-value float-right"><span>50</span>%</div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:50%;" aria-valuemin="0"
+                                aria-valuemax="50"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="section testimonial">
+    <div class="testimonial__background_shape">
+        <svg viewBox="0 0 1920 79">
+            <path d="M0 0h1920v79L0 0z" data-name="Path 1450" />
+        </svg>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="testimonial__header">
+                    <span class="top-title">Testimonials</span>
+                    <h2 id="why-me">Why Me?</h2>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="testimonial__slider">
+                    
+                    
+                    <div class="testimonial__slider_item">
+                        
+                        <p class="testimonial__slider_item-content"> SPIRIT OF WINNING for Initiating and Implementing a brand new cloud-based automated integration testing framework during Hackathon. </p>
+                        <p class="testimonial__slider_item-author"><span>MPHASIS</span> | Mar 2020 &amp; Feb 2021</p>
+                    </div>
+                    
+                    <div class="testimonial__slider_item">
+                        
+                        <p class="testimonial__slider_item-content"> TALENT AWARD for Service Restoring and fixing critical issue causing outage and saving millions of dollars impact. </p>
+                        <p class="testimonial__slider_item-author"><span>AMERICAN EXPRESS</span> | Jan 2018</p>
+                    </div>
+                    
+                    <div class="testimonial__slider_item">
+                        
+                        <p class="testimonial__slider_item-content"> BEST TEAM among 180+ team for modernizing the application by using cloud technologies, without any service disruption. </p>
+                        <p class="testimonial__slider_item-author"><span>TATA CONSULTANCY SERVICES</span> | Mar 2017</p>
+                    </div>
+                    
+                    <div class="testimonial__slider_item">
+                        
+                        <p class="testimonial__slider_item-content"> BEST PI &amp; TOOL amoung 200+ participants for design, development, and implementation of an automation tool which constantly monitors the Control-M batch job, eliminating manual monitoring. </p>
+                        <p class="testimonial__slider_item-author"><span>TATA CONSULTANCY SERVICES</span> | Mar 2012</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+ 
+
+
+  </div>
+  <section class="footer" id="contact">
+	<div class="footer__background_shape">
+		<svg viewBox="0 0 1920 79">
+			<path d="M0 0h1920v79L0 0z" data-name="Path 1450" />
+		</svg>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="footer__cta">
+					<div class="shape-1">
+						<svg xmlns="http://www.w3.org/2000/svg" width="357" height="315.029" viewBox="0 0 357 315.029">
+							<path data-name="Path 1449"
+								d="M76.1-157.222C91.746-135.8 87.2-94.273 99.993-61.945c12.7 32.328 42.661 55.459 39.248 73.282-3.318 17.823-40.007 30.337-65.6 43.325-25.5 12.988-39.912 26.545-60.01 42.566-20.1 16.116-46.074 34.6-63.328 27.682-17.349-6.921-25.976-39.153-59.915-59.82s-93.1-29.768-105.325-51.478 22.373-56.028 43.609-93.949c21.331-37.921 29.2-79.35 53.563-96.793 24.459-17.444 65.414-10.9 103.9-6.921 38.396 3.982 74.326 5.404 89.965 26.829z"
+								transform="translate(217.489 188.626)" />
+						</svg>
+					</div>
+					<div class="shape-2">
+						<svg xmlns="http://www.w3.org/2000/svg" width="357" height="315.029" viewBox="0 0 357 315.029">
+							<path data-name="Path 1449"
+								d="M76.1-157.222C91.746-135.8 87.2-94.273 99.993-61.945c12.7 32.328 42.661 55.459 39.248 73.282-3.318 17.823-40.007 30.337-65.6 43.325-25.5 12.988-39.912 26.545-60.01 42.566-20.1 16.116-46.074 34.6-63.328 27.682-17.349-6.921-25.976-39.153-59.915-59.82s-93.1-29.768-105.325-51.478 22.373-56.028 43.609-93.949c21.331-37.921 29.2-79.35 53.563-96.793 24.459-17.444 65.414-10.9 103.9-6.921 38.396 3.982 74.326 5.404 89.965 26.829z"
+								transform="translate(217.489 188.626)" />
+						</svg>
+					</div>
+					<div class="text-light footer__cta_content">
+						<span>Contact me</span>
+						<h2 class="mb-0">Let’s Start a Project</h2>
+					</div>
+					<div class="footer__cta_action">
+						<a class="btn btn-light btn-zoom" href="https://neerazz.github.io/contact">Get in
+							touch</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row footer__widget">
+			<div class="col-lg-4">
+				<div class="footer__widget_logo mb-5">
+					<img src="https://neerazz.github.io/images/contact/widget-logo.png" alt="widget-logo">
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="text-light footer__widget_sitemap mb-5">
+					<h4 class="base-font">Sitemap</h4>
+					<ul class="unstyle-list small">
+						
+						
+						<li class="mb-2"><a class="text-light" href="https://neerazz.github.io/">About me</a></li>
+						
+						<li class="mb-2"><a class="text-light" href="https://neerazz.github.io/contact">Contact</a></li>
+						
+						<li class="mb-2"><a class="text-light" href="https://neerazz.github.io/">Work</a></li>
+						
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="text-light footer__widget_address mb-5">
+					<h4 class="base-font">Address</h4>
+					
+					<ul class="fa-ul small">
+						<li class="mb-2"><a class="text-light" href="tel:&#43;%281%29%20724-NEERAJ-0"><span class="fa-li"><i
+										class="fa fa-phone"></i></span>&#43;(1) 724-NEERAJ-0</a></li>
+						<li class="mb-2"><a class="text-light" href="mailto:b.neerajkumarsingh@gmail.com"><span class="fa-li"><i
+										class="fa fa-envelope"></i></span>b.neerajkumarsingh@gmail.com</a></li>
+						<li class="mb-2">
+							<span class="fa-li"><i class="fa fa-map-marker"></i></span>10410 Highland Manor Dr, Tampa, FL 33610</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row footer__footer">
+			<div class="col-lg-6">
+				<div class="footer__footer_copy text-light">
+					<p>All right reserved copyright © Portio 2021</p>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="footer__footer_social">
+					<ul class="unstyle-list">
+						
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://github.com/neerazz"><i
+									class="fa fa-github-square"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://www.linkedin.com/"><i
+									class="fa fa-linkedin-square"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://leetcode.com/neerazz90/"><i
+									class="fa fa-hacker-news"></i></a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcj-CHmXBuE3yGrqMzorjZZkGtb127LNU&libraries=geometry"></script>
+<script src="https://neerazz.github.io/plugins/jQuery/jquery.min.js"></script>
+<script src="https://neerazz.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="https://neerazz.github.io/plugins/slick/slick.min.js"></script>
+<script src="https://neerazz.github.io/plugins/waypoint/jquery.waypoints.min.js"></script>
+<script src="https://neerazz.github.io/plugins/magnafic-popup/jquery.magnific-popup.min.js"></script>
+<script src="https://neerazz.github.io/plugins/tweenmax/TweenMax.min.js"></script>
+<script src="https://neerazz.github.io/plugins/imagesloaded/imagesloaded.min.js"></script>
+<script src="https://neerazz.github.io/plugins/masonry/masonry.min.js"></script>
+
+<script src="https://neerazz.github.io/js/form-handler.min.js"></script>
+
+<script src="https://neerazz.github.io/js/script.min.js"></script>
+
+</body>
+
+</html>
