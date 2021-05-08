@@ -5,5 +5,5 @@ content: >
   ### Decade-long software engineer with experience in disruptive technology.
 
 buttonName: Contact Me
-buttonURL: href="tel:+17246337250"
-# image: images/hero/sbsingh.png
+buttonURL: /contact
+image: images/hero/neeraj_close.JPG

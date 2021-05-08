@@ -17,10 +17,10 @@ weight = 2
 name = "Work"
 url = "#service"
 weight = 3
-[[menu.main]]
-name = "Awards & Recognition"
-url = "#blog"
-weight = 4
+# [[menu.main]]
+# name = "Awards & Recognition"
+# url = "#blog"
+# weight = 4
 [[menu.main]]
 name = "Contact"
 url = "#contact"

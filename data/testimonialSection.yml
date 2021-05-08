@@ -2,20 +2,22 @@
 enable: true
 topTitle: Testimonials
 title: >
-  ## What People are saying About Me?
-
-  #### Google Reviews
+  ## Why Me?
 
 testimonial:
-  - name: Neerja Caprihan
-    comment: One of the best Gurus ever! A fantastic teacher who can teach according to the skill and level of the learner. Sir is a down-to-earth and very knowledgable gentleman, with superior ethics that are difficult to find nowadays. My child has been attending classes for more than 2 years now, and we are extremely grateful for the individual attention and caring support.
-    time: Jan 20, 2021
-    star: 5
-  - name: Srelakshme Nair
-    comment: If you are looking for individual attention, SB Singh sir's Tabla class academy is the place for you. My son is taking Tabla classes under sir. Sir is very knowledgeable, humble, patient and loving to small kids. The best guidance we have ever received in Bangalore.
-    time: Mar 16, 2020
-    star: 5
-  - name: Balkishan D
-    comment: My son learns tabla from SB Singh sir for the last 10 months. He is an experienced tabla teacher with very good teaching techniques. I have seen him to be extremely patient with kids. My son has learnt the basics very quickly under him. Thanks to SB Singh sir and I recommend that other parents should also put their kids in his classes.
-    time: Mar 08, 2020
-    star: 5
+  - name: MPHASIS
+    comment: SPIRIT OF WINNING for Initiating and Implementing a brand new cloud-based automated integration testing framework during Hackathon.
+    time: Mar 2020 & Feb 2021
+    # star: 5
+  - name: AMERICAN EXPRESS
+    comment: TALENT AWARD for Service Restoring and fixing critical issue causing outage and saving millions of dollars impact.
+    time: Jan 2018
+    # star: 5
+  - name: TATA CONSULTANCY SERVICES
+    comment: BEST TEAM among 180+ team for modernizing the application by using cloud technologies, without any service disruption.
+    time: Mar 2017
+    # star: 5
+  - name: TATA CONSULTANCY SERVICES
+    comment: BEST PI & TOOL amoung 200+ participants for design, development, and implementation of an automation tool which constantly monitors the Control-M batch job, eliminating manual monitoring.
+    time: Mar 2012
+    # star: 5

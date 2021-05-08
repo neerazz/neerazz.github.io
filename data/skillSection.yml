@@ -6,7 +6,7 @@ content: >
 
   My goal is to build a strong supportive professional network among all software engineers and freelancers in order to solve problems.
 
-# image: images/skill/skill_image.jpg
+image: images/hero/neeraj_full.JPG
 
 skill:
   - title: Java, Groovy
