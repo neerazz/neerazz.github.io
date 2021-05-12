@@ -14,6 +14,6 @@ content: >
 
 button1Name: View My Work
 button1Target: https://github.com/neerazz
-button2Name: Download CV
+button2Name: Contact
 button2Target: contact
 image: images/hero/neeraj_build.jpg
