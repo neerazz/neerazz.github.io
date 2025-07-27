@@ -1,67 +1,51 @@
 ---
 enable: true
-topTitle: My Work
+topTitle: My Journey
 title: >
+  ## Experience & Education
 
-  Hands-on software architect with 15+ years of experience designing and scaling distributed systems, building developer platforms, and enhancing cloud security.
+  I’m a hands-on software architect with over 15 years of experience turning complex challenges into scalable, secure, and reliable solutions. Here’s a look at my journey.
 
 tab1Name: Education
-tab2Name: Experiences
+tab2Name: Experience
 tab1Target: education
 tab2Target: experience
 
 experience:
   - content: >
-
       ### Meta (2024–Present) — Staff Software Engineer
 
-      - Modernized AR/VR build infrastructure, cutting failures by 99% and saving 22k compute‑hours/month
-      - Shipped GenAI refactoring tool that automates service onboarding, eliminating 95% of manual effort
-        time: 2024-Present
-
+      I’m currently helping modernize the AR/VR build infrastructure, where I’ve cut build failures by 99% and saved over 22,000 compute-hours a month. I also shipped a GenAI-powered refactoring tool that automates service onboarding, removing 95% of the manual effort.
+    time: 2024-Present
   - content: >
-
       ### Olliv Coinflip (2024) — Principal Architect
 
-      - Delivered a 12 k TPS crypto‑trading platform in 4 months on AWS EKS + Kafka (P99 < 50 ms)
-      - Introduced Saga‑pattern microservices and GitOps pipelines for zero‑downtime releases
-        time: 2024
-
+      In just four months, I led the design and delivery of a high-throughput crypto-trading platform on AWS EKS and Kafka, achieving 12,000 TPS with a P99 latency of under 50ms. I introduced Saga-pattern microservices and GitOps pipelines to enable zero-downtime releases.
+    time: 2024
   - content: >
-
       ### Wayfair (2022–2024) — Technical Architect
 
-      - Led DevSecOps revamp: vulnerability checks 50 M+/month, incident response 40% faster
-      - Built next‑gen Auth server handling 125 M API calls/month; mentored 20+ engineers
-        time: 2022-2024
-
+      I spearheaded a DevSecOps transformation that increased vulnerability scan coverage to over 50 million checks a month and accelerated incident response by 40%. I also built a next-generation authentication server to handle 125 million API calls per month and had the privilege of mentoring over 20 engineers.
+    time: 2022-2024
   - content: >
+      ### JPMorgan Chase (2019–2021) — Senior Software Engineer
 
-      ### JPMorgan Chase (2019–2021) — Senior Software Engineer
-
-      - Developed real‑time payment microservice (10 k+ transactions/day) with Saga consistency
-      - Unified data from 3 legacy systems, cutting support call volume by 30%
-        time: 2019-2021
-
+      I developed a real-time payment microservice that processed over 10,000 transactions a day, using the Saga pattern to ensure data consistency. I also unified data from three legacy systems, which helped cut customer support call volume by 30%.
+    time: 2019-2021
   - content: >
+      ### American Express – International Insurance Services (2015–2019) — Senior Software Developer
 
-      ### American Express – International Insurance Services (2015–2019) — Senior Software Developer
-
-      - Re‑engineered monolithic claims app; response time improved 66%
-      - Built event‑driven notifications and carrier microservices for profile & claims data
-        time: 2015-2019
-
+      I re-engineered a monolithic claims application, improving its response time by 66%. I also built event-driven notification systems and microservices to manage carrier and claims data.
+    time: 2015-2019
   - content: >
+      ### American Express – Card Processing & Membership Rewards (2011–2015) — Senior Programmer
 
-      ### American Express – Card Processing & Membership Rewards (2011–2015) — Senior Programmer
-
-      - Maintained IMS/DB2 card‑processing system; automated batch monitoring to boost reliability
-      - Helped migrate COBOL loyalty logic to Spring MVC, improving maintainability across 30 markets
-        time: 2011-2015
+      I maintained a high-volume IMS/DB2 card-processing system and automated batch monitoring to significantly improve reliability. I also played a key role in migrating COBOL-based loyalty logic to a modern Spring MVC architecture, improving maintainability across 30 international markets.
+    time: 2011-2015
 
 education:
   - content: >
-      #### BACHELOR OF TECHNOLOGY
+      #### Bachelor of Technology
 
-      Specialized in **Electrical & Electronics Engineering** in First Class with distinction.
+      I earned my degree in **Electrical & Electronics Engineering**, graduating with First Class distinction.
     time: 2007-2011

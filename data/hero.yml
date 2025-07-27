@@ -1,14 +1,10 @@
 ---
 enable: true
 topTitle: Hi, I'm Neeraj Kumar Singh 👋
-content: > ## Passionate Software Engineer & Innovator
+content: >
+  ## I build reliable systems that let developers shine.
 
-  I build scalable systems, secure cloud platforms, and developer tools.
-
-  Currently modernizing AR/VR at Meta with GenAI.
-  
-  Driving velocity, resilience, and innovation.
-
-buttonName: Contact me
+  From crafting secure cloud platforms to building the GenAI-powered tools that modernize AR/VR development at Meta, my passion is turning complex challenges into simple, elegant solutions.
+buttonName: Get In Touch
 buttonURL: /contact
 image: images/hero/neeraj_close.JPG

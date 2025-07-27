@@ -2,22 +2,18 @@
 enable: false
 topTitle: Testimonials
 title: >
-  ## Why Me?
+  ## Words From Colleagues
 
 testimonial:
   - name: MPHASIS
-    comment: SPIRIT OF WINNING for Initiating and Implementing a brand new cloud-based automated integration testing framework during Hackathon.
-    time: Mar 2020 & Feb 2021
-    # star: 5
+    comment: "Received the SPIRIT OF WINNING award for initiating and implementing a brand new cloud-based automated integration testing framework during a company-wide Hackathon."
+    time: "March 2020 & February 2021"
   - name: AMERICAN EXPRESS
-    comment: TALENT AWARD for Service Restoring and fixing critical issue causing outage and saving millions of dollars impact.
-    time: Jan 2018
-    # star: 5
+    comment: "Awarded the TALENT AWARD for my role in restoring service during a critical outage, preventing millions of dollars in impact."
+    time: "January 2018"
   - name: TATA CONSULTANCY SERVICES
-    comment: BEST TEAM among 180+ team for modernizing the application by using cloud technologies, without any service disruption.
-    time: Mar 2017
-    # star: 5
+    comment: "Recognized as part of the BEST TEAM for modernizing a legacy application using cloud technologies with zero service disruption."
+    time: "March 2017"
   - name: TATA CONSULTANCY SERVICES
-    comment: BEST PI & TOOL amoung 200+ participants for design, development, and implementation of an automation tool which constantly monitors the Control-M batch job, eliminating manual monitoring.
-    time: Mar 2012
-    # star: 5
+    comment: "Won BEST PI & TOOL for designing and implementing an automation tool to monitor Control-M batch jobs, eliminating the need for manual oversight."
+    time: "March 2012"

@@ -1,27 +1,28 @@
 ---
 enable: true
-topTitle: My Expertises
+topTitle: What I Do
 title: >
-  Software Architect & Engineer
-  - Making complex systems reliable and boring (in the best way)
+  ## Architecting Simplicity, Engineering for Growth
+
+  I specialize in making complex systems reliable, scalable, and secure. Here’s how I help organizations thrive.
 service:
   - content: >
       #### Cloud Architecture 
 
-       Designing scalable, secure infrastructure on AWS & GCP with Kubernetes, Terraform, and all the acronyms.
+      I design and build resilient, scalable infrastructure on AWS and GCP, using Kubernetes, Terraform, and modern cloud-native tools to create platforms that just work.
     image: images/service/cloud.svg
   - content: >
       #### GenAI Developer Tools 
 
-      Building LLM-driven tools that actually help devs — from static analysis to context-aware automation.
+      I build intelligent, LLM-powered tools that streamline development, from static analysis to context-aware automation, helping developers ship faster and smarter.
     image: images/service/genai.svg
   - content: >
       #### DevSecOps & Platform Engineering 
 
-      From policy-as-code to zero-downtime deploys, I help teams ship fast without compromising security.
+      I help teams build security into their development lifecycle, from implementing policy-as-code to enabling zero-downtime deployments, fostering a culture of speed and safety.
     image: images/service/devsecops.svg
   - content: >
       #### Distributed Systems Design
 
-      Architecting microservices and event-driven systems that handle millions of requests without flinching.
+      I architect and implement robust microservices and event-driven systems capable of handling millions of requests without breaking a sweat.
     image: images/service/distributed.svg
