@@ -1,9 +1,9 @@
 ---
-enable: false
-topTitle: Videos
+enable: true
+topTitle: Blog
 title: >
-  ## Videos
+  ## Recent Article
 
-  Watch Tabla ustad and his students perform
+  Enjoy team diversity and increase their networks among others people in various fields by provided.
 
 buttonTarget: blog

@@ -2,96 +2,44 @@
 enable: true
 topTitle: Working Area
 title: >
-  ## My Expertises
+  ## Creative Services
 
-  Proven track record in software development for the financial industry, technology innovation, analytics, process improvement, understanding customer requirements and translating needs or data into meaningful insights within deadlines.
-
+  Enjoy team diversity and increase their networks among others people in
+  various fields by provided.
 service:
   - content: >
-      #### Meta (formerly Facebook), Staff Software Engineer
+      #### UI/UX Design 
 
-      ##### June 2024 - Present, Burlingame, CA, USA
-
-      - Spearheaded the modernization of Reality Labs' CI/CD infrastructure, migrating to a scalable SOA-based platform supporting all AR/VR product lines.
-      - Pioneered GenAI-powered developer tools for automated code refactoring and service configuration, reducing manual migration effort by over 95%.
-      - Architected the Unified Build Model (UBM), reducing build tracking failures by 99% and handling over 150 million requests per day.
-      - Delivered significant operational savings and improved build times for 350+ critical application builds.
-      - Set strategic direction and drove cross-functional alignment for RL build infrastructure.
-      - Established a new bar for engineering quality with over 92% test coverage and proactive SEV resolution.
-    image: images/service/branding.svg
-
-  - content: >
-      #### Coinflip, Principal Software Engineer
-
-      ##### Feb 2024 - June 2024, Tampa, FL, USA
-
-      - Architected and delivered a high-performance cryptocurrency trading platform in 4 months.
-      - Led the design and implementation of a microservices-based architecture for rapid product launch.
-      - Defined end-to-end technical strategy and selected the core technology stack (Java, AWS EKS, Kafka, PostgreSQL, Redis).
-      - Designed a Kubernetes-driven infrastructure capable of 12,000+ transactions/sec for high-frequency trading.
-      - Implemented Saga patterns for core services, achieving P99 latency targets under 50ms.
-      - Established continuous performance testing and production-ready DevOps and security practices.
-      - Mentored engineering leads on distributed systems and Infrastructure-as-Code best practices.
-    image: images/service/creative.svg
-
-  - content: >
-      #### Raymond James & Associates INC, Lead Software Engineer
-
-      ##### April 2024 - June 2024, USA
-
-      - Led pivotal initiatives in application and infrastructure security as Technical Architect.
-      - Analyzed complex system requirements and identified program interactions.
-      - Led projects, coordinated tasks, and monitored performance.
-      - Participated in system testing and validation procedures.
-      - Provided technical advice and solved programming problems.
-      - Applied knowledge of SQL, NoSQL, and JavaScript technologies.
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
+      tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/service/ui-ux.svg
-
   - content: >
-      #### Wayfair, Technical Architect
+      #### Web Development 
 
-      ##### January 2022 - March 2024, USA
-
-      - Led the architectural vision for enterprise-wide DevSecOps and Identity platforms.
-      - Architected a unified DevSecOps platform, improving security incident response times by 40%.
-      - Delivered next-gen AuthIdentity Server, supporting 125M+ API calls/month and modern authentication.
-      - Set technical standards for Kubernetes security and policy-as-code.
-      - Engineered a centralized analytics pipeline for threat intelligence and data efficiency.
-      - Mentored 20+ engineers on secure architecture and distributed systems.
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
+      tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/service/web.svg
-
   - content: >
-      #### JPMORGAN, Lead Software Engineer
+      #### Creative Design 
 
-      ##### March 2019 - December 2021, USA
-
-      - Delivered advanced banking solutions for Corporate Investment Banking (CIB) clients.
-      - Integrated user/account data from three systems, reducing support calls by 30%.
-      - Developed payment microservices using saga-pattern for real-time transactions.
-      - Developed reusable security frameworks and managed infrastructure as code with Terraform.
-      - Built automated CI/CD pipelines and cloud-based integration testing frameworks.
-      - Developed RESTful and GraphQL APIs and established centralized logging and observability.
-    image: images/service/branding.svg
-
-  - content: >
-      #### AMERICAN EXPRESS (International Insurance Services), Tata Consultancy Services, Senior Software Developer
-
-      ##### July 2015 - March 2019
-
-      - Validated and processed Claims Data Feed from various Insurance Carriers.
-      - Developed RESTful microservices for user profiles, claims, and risk scoring.
-      - Migrated COBOL modules to Java using modern frameworks.
-      - Developed event-driven notification services and re-engineered monolith applications for performance.
-      - Developed SOAP Web Services for automated voice service.
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
+      tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/service/creative.svg
-
   - content: >
-      #### AMERICAN EXPRESS, Tata Consultancy Services, Software Engineer
+      #### Branding
 
-      ##### December 2011 - July 2015, Bangalore Area, India
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
+      tempor invidunt ut labore et dolore magna aliquyam erat.
+    image: images/service/branding.svg
+  - content: >
+      #### UI/UX Design
 
-      - Maintained Card business processing applications (new card generation, transactions, billing, etc.).
-      - Developed automated mainframe jobs for batch monitoring and notifications.
-      - Investigated and resolved production issues and ensured system availability.
-      - Ensured web, CICS, IMS, and DB2 systems were up and met response thresholds.
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
+      tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/service/ui-ux.svg
+  - content: >
+      #### Web Development
+
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
+      tempor invidunt ut labore et dolore magna aliquyam erat.
+    image: images/service/web.svg
