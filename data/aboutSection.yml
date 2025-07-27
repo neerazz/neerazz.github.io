@@ -3,10 +3,11 @@ enable: true
 topTitle: About
 title: '## My Story'
 content: >
-  My journey in tech began with a simple question: "How can this be better?" It’s a question that has led me from tinkering in home labs to architecting the build infrastructure for AR/VR at Meta. Along the way, I’ve had the privilege of strengthening Wayfair's security, launching a crypto trading platform that handles real-world assets, and learning that the most powerful systems are the ones that work so seamlessly you forget they're even there.
+  #### My journey in tech began with a simple question: "How can this be better?" It’s a question that has led me from tinkering in home labs to architecting the build infrastructure for AR/VR at Meta. Along the way, I’ve had the privilege of strengthening Wayfair's security, launching a crypto trading platform that handles real-world assets, and learning that the most powerful systems are the ones that work so seamlessly you forget they're even there.
 
 
   I thrive on turning complex, distributed systems into reliable (and, let's be honest, slightly boring) platforms. My goal is to automate the pain points away, allowing developers to focus on what they do best: innovate. Whether I'm sketching out system diagrams or trying to explain blockchain to my five-year-old (a work in progress), I'm always searching for the next puzzle to solve.
+
 button1Name: My Work
 button1Target: https://github.com/neerazz
 button2Name: Contact
