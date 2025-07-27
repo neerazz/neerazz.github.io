@@ -4,12 +4,22 @@ topTitle: My Resume
 title: >
   ## My Expertises
 
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore  
+  - Flexible and versatile to adapt to any new technologies, environment with an ability to work independently or in a group.
+  
+  - Proven track record in software development for the financial industry, technology innovation, analytics, process improvement, understanding customer requirements and translate given need or data into meaningful insights within deadlines.
 
 
-  Magna aliquyam erat, sed diam voluptua. At vero eos accusam justo.
 tab1Name: Experiences
 tab1Target: experience
+tab2Name: Education
+tab2Target: education
+
+education:
+  - content: >
+      #### BACHELOR OF TECHNOLOGY
+
+      Specialized in **Electrical & Electronics Engineering** in First Class with distinction.
+    time: 2007-2011
 
 experience:
   - content: >
