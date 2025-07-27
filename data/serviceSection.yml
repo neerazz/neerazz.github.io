@@ -10,19 +10,19 @@ service:
       #### Cloud Architecture 
 
       I design and build resilient, scalable infrastructure on AWS and GCP, using Kubernetes, Terraform, and modern cloud-native tools to create platforms that just work.
-    image: images/service/cloud.svg
+    image: images/service/branding.svg
   - content: >
       #### GenAI Developer Tools 
 
       I build intelligent, LLM-powered tools that streamline development, from static analysis to context-aware automation, helping developers ship faster and smarter.
-    image: images/service/genai.svg
+    image: images/service/creative.svg
   - content: >
       #### DevSecOps & Platform Engineering 
 
       I help teams build security into their development lifecycle, from implementing policy-as-code to enabling zero-downtime deployments, fostering a culture of speed and safety.
-    image: images/service/devsecops.svg
+    image: images/service/branding.svg
   - content: >
       #### Distributed Systems Design
 
       I architect and implement robust microservices and event-driven systems capable of handling millions of requests without breaking a sweat.
-    image: images/service/distributed.svg
+    image: images/service/web.svg
