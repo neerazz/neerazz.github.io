@@ -1,13 +1,12 @@
 ---
 enable: true
-topTitle: Hello, I am Natasha
+topTitle: Hi, I'm Neeraj Kumar Singh 👋
 content: >
-  # I am here for your personal business
+  ## A passionate software engineer with a knack for innovation.
 
-  Enjoy team diversity and increase their networks among others people
-  in various fields by
+  🚀 I build scalable distributed systems, secure cloud platforms, and next-gen developer tools.
+  💡 Driving velocity, resilience, and innovation across AR/VR, FinTech & E-commerce domains.
+
 buttonName: Contact me
 buttonURL: contact
-image: images/hero/2960351.jpg
-videoThumb: images/hero/popup-thumb.png
-videoURL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+image: images/hero/neeraj_close.JPG

@@ -2,35 +2,31 @@
 enable: true
 topTitle: Working Area
 title: >
-  ## Creative Services
+  ## My Expertises
 
-  Enjoy team diversity and increase their networks among others people in
-  various fields by provided.
+  A hands-on software architect with over 15 years in the trenches, designing and scaling distributed systems, building developer platforms, and tightening cloud security.
+  - Making complex systems reliable and boring (in the best way)
 service:
   - content: >
-      #### UI/UX Design 
+      #### Cloud Architecture 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/ui-ux.svg
+       Designing scalable, secure infrastructure on AWS & GCP with Kubernetes, Terraform, and all the acronyms.
+    image: images/service/cloud.svg
   - content: >
-      #### Web Development 
+      #### GenAI Developer Tools 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/web.svg
+      Building LLM-driven tools that actually help devs — from static analysis to context-aware automation.
+    image: images/service/genai.svg
   - content: >
-      #### Creative Design 
+      #### DevSecOps & Platform Engineering 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/creative.svg
+      From policy-as-code to zero-downtime deploys, I help teams ship fast without compromising security.
+    image: images/service/devsecops.svg
   - content: >
-      #### Branding
+      #### Distributed Systems Design
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/branding.svg
+      Architecting microservices and event-driven systems that handle millions of requests without flinching.
+    image: images/service/distributed.svg
   - content: >
       #### UI/UX Design
 

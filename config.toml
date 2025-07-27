@@ -1,8 +1,8 @@
 baseURL = "https://neerazz.github.io/"
 languageCode = "en-us"
 paginate = 6
-theme = "portio"
-title = "Neeraj"
+theme = "portio-hugo"
+title = "Neeraj Kumar Singh"
 
 # Main Menu
 [[menu.main]]
@@ -50,7 +50,7 @@ footerLogo = "images/contact/widget-logo.png"
 logo = "images/site-navigation/logo.png"
 
 [params.address]
-address = "10410 Highland Manor Dr, Tampa, FL 33610"
+address = "Fremount, CA, USA 94555"
 email = "b.neerajkumarsingh@gmail.com"
 openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
 phone = "+(1) 724-NEERAJ-0"
@@ -68,7 +68,7 @@ url = "https://github.com/neerazz"
 weight = 1
 [[params.social]]
 icon = "fa-linkedin-square"
-url = "https://www.linkedin.com/"
+url = "https://linkedin.com/in/neerajkumarsinghb"
 weight = 2
 [[params.social]]
 icon = "fa-hacker-news"

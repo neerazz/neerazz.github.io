@@ -1,17 +1,31 @@
 ---
 enable: true
-topTitle: My Skills
+topTitle: Engineering Superpowers
 content: >
-  ## Why hire me for your next project?
+  ## Building reliable systems & happier developers
 
-  My goal is to build a strong supportive professional network among all freelancers and startups in order to improve their performance.
+  Fifteen years in the trenches have taught me one thing: real impact comes from making complex infrastructure feel simple. These are the areas where I help teams ship faster and sleep better.
 
 image: images/skill/skill_image.jpg
 
 skill:
-  - title: HTML
-    percent: 69
-  - title: CSS
-    percent: 60
-  - title: Javascript
+  - title: Distributed Systems & Microservices
+    percent: 95
+  - title: Kubernetes & Cloud (AWS/GCP)
+    percent: 93
+  - title: DevSecOps, Policy‑as‑Code & Cloud Security
+    percent: 92
+  - title: CI/CD, GitOps & Release Engineering
+    percent: 90
+  - title: GenAI Tooling & Prompt Engineering
+    percent: 88
+  - title: Java, Python & Groovy, JavaScript
+    percent: 90
+  - title: Event Streaming (Kafka) & Async Architectures
+    percent: 88
+  - title: Datastores (PostgreSQL, Cassandra, Redis)
     percent: 85
+  - title: Observability & Performance Testing
+    percent: 82
+  - title: Technical Leadership & Mentoring
+    percent: 80

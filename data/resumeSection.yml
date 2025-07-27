@@ -8,51 +8,54 @@ title: >
 
 
   Magna aliquyam erat, sed diam voluptua. At vero eos accusam justo.
-tab1Name: Education
-tab2Name: Experiences
-tab1Target: education
-tab2Target: experience
-
-education:
-  - content: >
-      #### Master in Arts
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
-  - content: >
-      #### Master in Arts
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
-  - content: >
-      #### Master in Arts
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
-  - content: >
-      #### Master in Arts
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+tab1Name: Experiences
+tab1Target: experience
 
 experience:
   - content: >
-      #### Umbrella co. 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2016-Present
+      ### Meta (2024–Present) — Staff Software Engineer
+
+      - Modernized AR/VR build infrastructure (Chesterfield), cutting failures by 99% and saving 22k compute‑hours/month
+      - Shipped GenAI refactoring tool that automates service onboarding, eliminating 95% of manual effort
+        time: 2024-Present
+
   - content: >
-      #### Aperture Science 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2010-2016
+      ### Olliv Coinflip (2024) — Principal Architect
+
+      - Delivered a 12 k TPS crypto‑trading platform in 4 months on AWS EKS + Kafka (P99 < 50 ms)
+      - Introduced Saga‑pattern microservices and GitOps pipelines for zero‑downtime releases
+        time: 2024
+
   - content: >
-      #### ACME Inc. 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2005-2010
+      ### Wayfair (2022–2024) — Technical Architect
+
+      - Led DevSecOps revamp: vulnerability checks 50 M+/month, incident response 40% faster
+      - Built next‑gen Auth server handling 125 M API calls/month; mentored 20+ engineers
+        time: 2022-2024
+
   - content: >
-      #### LexCorp 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2001-2005
+      ### JPMorgan Chase (2019–2021) — Senior Software Engineer
+
+      - Developed real‑time payment microservice (10 k+ transactions/day) with Saga consistency
+      - Unified data from 3 legacy systems, cutting support call volume by 30%
+        time: 2019-2021
+
+  - content: >
+
+      ### American Express – International Insurance Services (2015–2019) — Senior Software Developer
+
+      - Re‑engineered monolithic claims app; response time improved 66%
+      - Built event‑driven notifications and carrier microservices for profile & claims data
+        time: 2015-2019
+
+  - content: >
+
+      ### American Express – Card Processing & Membership Rewards (2011–2015) — Senior Programmer
+
+      - Maintained IMS/DB2 card‑processing system; automated batch monitoring to boost reliability
+      - Helped migrate COBOL loyalty logic to Spring MVC, improving maintainability across 30 markets
+        time: 2011-2015
