@@ -14,13 +14,6 @@ tab1Target: experience
 tab2Name: Education
 tab2Target: education
 
-education:
-  - content: >
-      #### BACHELOR OF TECHNOLOGY
-
-      Specialized in **Electrical & Electronics Engineering** in First Class with distinction.
-    time: 2007-2011
-
 experience:
   - content: >
 
@@ -69,3 +62,10 @@ experience:
       - Maintained IMS/DB2 card‑processing system; automated batch monitoring to boost reliability
       - Helped migrate COBOL loyalty logic to Spring MVC, improving maintainability across 30 markets
         time: 2011-2015
+
+education:
+  - content: >
+      #### BACHELOR OF TECHNOLOGY
+
+      Specialized in **Electrical & Electronics Engineering** in First Class with distinction.
+    time: 2007-2011

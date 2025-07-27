@@ -2,18 +2,22 @@
 enable: true
 topTitle: Testimonials
 title: >
-  ## What People Say About Me?
+  ## Why Me?
 
 testimonial:
-  - name: Ryan Cook
-    comment: Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna.
-    time: Jan 20, 2020
-    star: 5
-  - name: Justin Trudo
-    comment: Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna.
-    time: Jan 16, 2020
-    star: 4
-  - name: Franky Filth
-    comment: Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna.
-    time: Mar 08, 2020
-    star: 3
+  - name: MPHASIS
+    comment: SPIRIT OF WINNING for Initiating and Implementing a brand new cloud-based automated integration testing framework during Hackathon.
+    time: Mar 2020 & Feb 2021
+    # star: 5
+  - name: AMERICAN EXPRESS
+    comment: TALENT AWARD for Service Restoring and fixing critical issue causing outage and saving millions of dollars impact.
+    time: Jan 2018
+    # star: 5
+  - name: TATA CONSULTANCY SERVICES
+    comment: BEST TEAM among 180+ team for modernizing the application by using cloud technologies, without any service disruption.
+    time: Mar 2017
+    # star: 5
+  - name: TATA CONSULTANCY SERVICES
+    comment: BEST PI & TOOL amoung 200+ participants for design, development, and implementation of an automation tool which constantly monitors the Control-M batch job, eliminating manual monitoring.
+    time: Mar 2012
+    # star: 5

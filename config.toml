@@ -17,23 +17,33 @@ weight = 2
 name = "My Work"
 url = "#service"
 weight = 3
-# [[menu.main]]
-# name = "Awards & Recognition"
-# url = "#blog"
-# weight = 4
+
+[[menu.main]]
+name = "Work"
+url = "#portfolio"
+weight = 4
+[[menu.main]]
+name = "Resume"
+url = "#resume"
+weight = 5
+[[menu.main]]
+name = "Skills"
+url = "#skills"
+weight = 6
+
 [[menu.main]]
 name = "Contact"
 url = "#contact"
-weight = 5
+weight = 7
 
 # Sitemap Menu
 [[menu.sitemap]]
 name = "About me"
-url = "/#about"
+url = "about"
 weight = 1
 [[menu.sitemap]]
 name = "Contact"
-url = "/contact"
+url = "contact"
 weight = 2
 [[menu.sitemap]]
 name = "Work"
@@ -57,8 +67,8 @@ phone = "+(1) 724-NEERAJ-0"
 
 [params.map]
 APIkey = "AIzaSyBcj-CHmXBuE3yGrqMzorjZZkGtb127LNU"
-latitude = "27.987025102504646"
-longitude = "-82.32838968470132"
+latitude = "37.5259"
+longitude = "-121.9772"
 pinImage = "images/pin.png"
 
 # Social icons
