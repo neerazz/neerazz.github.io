@@ -1,10 +1,9 @@
----
 enable: true
 topTitle: Hi, I'm Neeraj Kumar Singh 👋
 content: >
-  ## I build reliable systems that let developers shine.
+  ## I build security that's invisible and infrastructure that's boring.
 
-  From crafting secure cloud platforms to building the GenAI-powered tools that modernize AR/VR development at Meta, my passion is turning complex challenges into simple, elegant solutions.
+  Currently architecting Zero Trust security at Parafin — an $8B+ fintech platform powering capital access for businesses on Amazon, DoorDash, Walmart, and TikTok Shop. Published AI security researcher. Invited speaker at Conf42 DevOps 2026. Fellow of IICSPA. 15+ years building mission-critical systems at Meta, Wayfair, JPMorgan Chase, and American Express.
 buttonName: Get In Touch
 buttonURL: /contact
 image: images/hero/neeraj_close.JPG

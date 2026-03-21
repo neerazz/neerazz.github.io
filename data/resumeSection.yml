@@ -1,10 +1,9 @@
----
 enable: true
 topTitle: My Journey
 title: >
   ## Experience & Education
 
-  I’m a hands-on software architect with over 15 years of experience turning complex challenges into scalable, secure, and reliable solutions. Here’s a look at my journey.
+  Staff-level engineer with 15+ years turning complex challenges into scalable, secure, and reliable solutions across fintech, e-commerce, AR/VR, and financial services.
 
 tab1Name: Education
 tab2Name: Experience
@@ -13,39 +12,39 @@ tab2Target: experience
 
 experience:
   - content: >
-      ### Meta (2024–Present) — Staff Software Engineer
+      ### Parafin (Dec 2025–Present) — Staff Security Infrastructure Engineer
 
-      I’m currently helping modernize the AR/VR build infrastructure, where I’ve cut build failures by 99% and saved over 22,000 compute-hours a month. I also shipped a GenAI-powered refactoring tool that automates service onboarding, removing 95% of the manual effort.
-    time: 2024-Present
+      Architecting Zero Trust security infrastructure for an $8B+ embedded lending platform powering capital access for businesses on Amazon, DoorDash, Walmart, and TikTok Shop. Leading security mock drills, incident response planning, BC/DR strategy, and PII governance. Operating across a YC-backed, $750M-valued fintech with mission-critical uptime requirements.
+    time: Dec 2025–Present
   - content: >
-      ### Olliv Coinflip (2024) — Principal Architect
+      ### Meta — Reality Labs (Jun 2024–Dec 2025) — Staff Software Engineer
 
-      In just four months, I led the design and delivery of a high-throughput crypto-trading platform on AWS EKS and Kafka, achieving 12,000 TPS with a P99 latency of under 50ms. I introduced Saga-pattern microservices and GitOps pipelines to enable zero-downtime releases.
-    time: 2024
+      Led CI/CD modernization (Project Chesterfield) for Quest VR and Ray-Ban Meta products. Built a GenAI-powered migration tool that eliminated 95% of manual onboarding effort and saved $386K/year. Shipped a Unified Build Model metadata service handling 150M+ requests/day at 99.9% reliability. Mentored 6 engineers, 3 of whom were promoted to Staff within 12 months.
+    time: Jun 2024–Dec 2025
   - content: >
-      ### Wayfair (2022–2024) — Technical Architect
+      ### Raymond James Financial (Apr 2024–Jun 2024) — Lead Software Development Engineer
 
-      I spearheaded a DevSecOps transformation that increased vulnerability scan coverage to over 50 million checks a month and accelerated incident response by 40%. I also built a next-generation authentication server to handle 125 million API calls per month and had the privilege of mentoring over 20 engineers.
-    time: 2022-2024
+      Delivered a document generation platform processing 8K–12K documents/month with 99.2% success rate. Established a 95% code coverage standard and quality culture across a team of 8 engineers.
+    time: Apr 2024–Jun 2024
   - content: >
-      ### JPMorgan Chase (2019–2021) — Senior Software Engineer
+      ### Wayfair (Jan 2022–Mar 2024) — Technical Architect
 
-      I developed a real-time payment microservice that processed over 10,000 transactions a day, using the Saga pattern to ensure data consistency. I also unified data from three legacy systems, which helped cut customer support call volume by 30%.
-    time: 2019-2021
+      Spearheaded a DevSecOps transformation increasing vulnerability scan coverage to 50M+ checks/month and cutting incident response time by 40%. Built a next-generation OAuth 2.0 authentication platform handling 125M+ API calls/week at 99.97% uptime. Selected as 1 of 3 architects from 50+ candidates for the company-wide security roadmap. Mentored 20+ engineers (8 promoted to senior/staff).
+    time: Jan 2022–Mar 2024
   - content: >
-      ### American Express – International Insurance Services (2015–2019) — Senior Software Developer
+      ### JPMorgan Chase — CIB (Mar 2019–Dec 2021) — Senior Software Engineer
 
-      I re-engineered a monolithic claims application, improving its response time by 66%. I also built event-driven notification systems and microservices to manage carrier and claims data.
-    time: 2015-2019
+      Developed an escrow platform managing $40B+ in deposits and a Saga-pattern payment microservice processing 10K+ daily transactions. Built a centralized authentication framework adopted by 18+ CIB teams, reducing customer support call volume by 30%.
+    time: Mar 2019–Dec 2021
   - content: >
-      ### American Express – Card Processing & Membership Rewards (2011–2015) — Senior Programmer
+      ### American Express — via TCS (Dec 2011–Mar 2019) — Senior Software Developer
 
-      I maintained a high-volume IMS/DB2 card-processing system and automated batch monitoring to significantly improve reliability. I also played a key role in migrating COBOL-based loyalty logic to a modern Spring MVC architecture, improving maintainability across 30 international markets.
-    time: 2011-2015
+      Re-engineered monolithic claims and card-processing systems into microservices architecture, achieving 60% code reduction and 66% faster API response times. Built event-driven B2B integrations handling 2M+ monthly requests across 15+ carrier partners. Migrated COBOL-based loyalty logic to Spring MVC across 30 international markets. Worked across Bangalore, Montevideo (Uruguay), and Phoenix.
+    time: Dec 2011–Mar 2019
 
 education:
   - content: >
-      #### Bachelor of Technology
+      #### Bachelor of Technology — Electrical & Electronics Engineering
 
-      I earned my degree in **Electrical & Electronics Engineering**, graduating with First Class distinction.
-    time: 2007-2011
+      **RVR JC College of Engineering**, Guntur, Andhra Pradesh, India. Graduated with First Class distinction.
+    time: 2007–2011

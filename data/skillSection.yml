@@ -1,12 +1,13 @@
----
 enable: true
 topTitle: My Toolkit
 content: >
   ## Engineering Superpowers
 
-  Over the past 15 years, I’ve learned that the right tools and techniques can make all the difference. Here are the areas where I bring the most value, helping teams build reliable systems and foster a culture of innovation.
+  15+ years of building mission-critical systems has sharpened a broad toolkit. Here are the areas where I bring the most value — from security architecture to AI/ML systems to distributed infrastructure.
 image: images/hero/neeraj_full.JPG
 skill:
+  - title: Security Infrastructure & Zero Trust Architecture
+    percent: 95
   - title: Distributed Systems & Microservices
     percent: 95
   - title: Kubernetes & Cloud (AWS/GCP)
@@ -15,15 +16,13 @@ skill:
     percent: 92
   - title: CI/CD, GitOps & Release Engineering
     percent: 90
-  - title: GenAI Tooling & Prompt Engineering
-    percent: 88
-  - title: Java, Python, Groovy, & JavaScript
+  - title: GenAI Tooling, RAG Security & LLM Integration
+    percent: 90
+  - title: Java, Python, Go & TypeScript
     percent: 90
   - title: Event Streaming (Kafka) & Async Architectures
     percent: 88
   - title: Datastores (PostgreSQL, Cassandra, Redis)
     percent: 85
-  - title: Observability & Performance Testing
-    percent: 82
   - title: Technical Leadership & Mentoring
-    percent: 80
+    percent: 85

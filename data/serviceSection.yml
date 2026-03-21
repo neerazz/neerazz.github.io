@@ -1,28 +1,27 @@
----
 enable: true
 topTitle: What I Do
 title: >
   ## Architecting Simplicity, Engineering for Growth
 
-  I specialize in making complex systems reliable, scalable, and secure. Here’s how I help organizations thrive.
+  I specialize in making complex systems secure, scalable, and reliable. Here's how I help organizations thrive.
 service:
   - content: >
-      #### Cloud Architecture 
+      #### Security Infrastructure & Zero Trust
 
-      I design and build resilient, scalable infrastructure on AWS and GCP, using Kubernetes, Terraform, and modern cloud-native tools to create platforms that just work.
+      I design and implement Zero Trust security architectures — from identity and access management to policy-as-code enforcement and PII governance — helping organizations protect critical infrastructure without slowing down engineering velocity.
     image: images/service/branding.svg
   - content: >
-      #### GenAI Developer Tools 
+      #### Cloud Architecture & Platform Engineering
 
-      I build intelligent, LLM-powered tools that streamline development, from static analysis to context-aware automation, helping developers ship faster and smarter.
+      I design and build resilient, scalable infrastructure on AWS and GCP using Kubernetes, Terraform, and modern cloud-native tools. I create platforms with 99.9%+ reliability that developers love to build on.
+    image: images/service/web.svg
+  - content: >
+      #### GenAI & AI Security Research
+
+      I build LLM-powered developer tools that streamline workflows, and I research adversarial threats to AI systems — including RAG pipeline poisoning and embedding manipulation (EmbedGuard, PeerJ CS under review).
     image: images/service/creative.svg
   - content: >
-      #### DevSecOps & Platform Engineering 
+      #### DevSecOps & Distributed Systems Design
 
-      I help teams build security into their development lifecycle, from implementing policy-as-code to enabling zero-downtime deployments, fostering a culture of speed and safety.
+      I architect event-driven microservices and CI/CD platforms that handle millions of requests. I help teams embed security into every layer of the development lifecycle, enabling speed and safety simultaneously.
     image: images/service/branding.svg
-  - content: >
-      #### Distributed Systems Design
-
-      I architect and implement robust microservices and event-driven systems capable of handling millions of requests without breaking a sweat.
-    image: images/service/web.svg
