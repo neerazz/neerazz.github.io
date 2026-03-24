@@ -1,5 +1,6 @@
 ---
-enable: true
+# Disabled: no on-site posts yet (removed Portio demo article). Writing lives on LinkedIn (buttonTarget).
+enable: false
 topTitle: My Blog
 title: >
   ## Latest Thoughts & Insights
