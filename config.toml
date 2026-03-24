@@ -14,24 +14,28 @@ name = "About"
 url = "#about"
 weight = 2
 [[menu.main]]
+name = "Honors"
+url = "#honors"
+weight = 3
+[[menu.main]]
 name = "My Expertises"
 url = "#service"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "Resume"
 url = "#resume"
-weight = 4
+weight = 5
 
 [[menu.main]]
 name = "Skills"
 url = "#skills"
-weight = 5
+weight = 6
 
 [[menu.main]]
 name = "Contact"
 url = "#contact"
-weight = 6
+weight = 7
 
 # Sitemap Menu
 [[menu.sitemap]]
