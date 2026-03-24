@@ -1,18 +1,62 @@
 enable: true
 topTitle: Recognition
-title: "## Awards & memberships"
-content: >
+title: "## Awards, publications & memberships"
+# Use | so markdown paragraphs and lists render correctly.
+content: |
   #### International awards
 
-  **Gold Laureate** — [Aureum Technology Awards](https://aureumawards.com/) Season 3 (NLP Achievement Award; ref. TEC-26-12296), organized by the Aureum International Awards Council. Season 3 drew 4,067 global applications with 213 laureates recognized after multi-phase expert evaluation. Coverage includes a [Markets Insider](https://markets.businessinsider.com/news/stocks/aureum-technology-awards-season-3-results-announced-reinforcing-merit-based-global-technology-recognition-and-industry-trust1-1035845335) results announcement.
+  **Gold Laureate** — [Aureum Technology Awards](https://aureumawards.com/) Season 3 (**NLP Achievement Award**; reference **TEC-26-12296**), [Aureum International Awards Council](https://aureumawards.com/). Season 3: **4,067** applications received, **1,082** advanced to full assessment, **213** laureates after multi-phase expert evaluation (per program materials and press). Media: [Markets Insider — Season 3 results](https://markets.businessinsider.com/news/stocks/aureum-technology-awards-season-3-results-announced-reinforcing-merit-based-global-technology-recognition-and-industry-trust1-1035845335).
 
 
-  #### Fellowships & professional societies
+  #### Scholarly & research publications
 
-  * **Fellow**, Hackathon Raptors (UK Community Interest Company #15557917) — peer-elected fellowship for sustained builder and hackathon achievement (Fellow #14975).
+  * **EmbedGuard** — *Cross-Layer Detection and Cryptographic Attestation for Secure Retrieval-Augmented Generation* — under peer review, [PeerJ Computer Science](https://peerj.com/) (Cryptography, Security and Privacy). Preprint & artifacts: [Zenodo DOI 10.5281/zenodo.18364920](https://zenodo.org/records/18364920) · [Implementation (GitHub)](https://github.com/neerazz/embedguard) · [Manuscript portal](https://peerj.com/manuscripts/131685/).
 
-  * **Fellow**, International Institute of Certified and Specialized Professionals and Academics (IICSPA).
+  * **Work in progress** — GenOps (governance for enterprise AI in CI/CD); TriArchitect (multi-agent safe migration); RuntimeGuard AI (runtime verification for autonomous agents).
 
-  * **Full Member**, Sigma Xi — The Scientific Research Honor Society.
 
-  * **Member**, IEEE.
+  #### Technical writing & community reach
+
+  **18+** articles on [LinkedIn](https://www.linkedin.com/in/neerajkumarsinghb/recent-activity/articles/), [Medium](https://medium.com/@neerazz), and Hashnode — distributed systems, Kubernetes, Kafka, Spring Boot, RAG pipelines, databases, and AI security. Representative titles include *From 50 Million Events to a Single Answer: Building a RAG Pipeline in Spring Boot* (2025) and *Prompt Engineering vs Context Engineering vs Reasoning Engineering* (2026).
+
+
+  #### Speaking
+
+  * **Conf42 DevOps 2026** — invited talk: *GenOps: A Governance-Driven Model for Safe, High-Velocity AI in CI/CD Pipelines* — [session page](https://www.conf42.com/DevOps_2026_Neeraj_Kumar_Singh_Beshane_governance_genai_velocity) · [recording (YouTube)](https://www.youtube.com/watch?v=YcGxfYXwUvI).
+
+
+  #### Open source
+
+  * **[FAANG](https://github.com/neerazz/FAANG)** — interview-prep algorithms & patterns (**~1.9K** GitHub stars, **490+** forks).
+
+  * **[EmbedGuard](https://github.com/neerazz/embedguard)** — reproducible RAG-security research framework (Docker, tests, benchmarks).
+
+  * **[faang-system-design](https://github.com/neerazz/faang-system-design)** — curated system-design notes.
+
+
+  #### Fellowships & professional memberships
+
+  * **Fellow**, **Hackathon Raptors** — UK Community Interest Company **[15557917](https://find-and-update.company-information.service.gov.uk/company/15557917)**; peer-elected fellowship for sustained builder / hackathon achievement (**Fellow #14975**).
+
+  * **Fellow (FIICSPA)**, **International Institute of Certified and Specialized Professionals and Academics** — member ID **08D61A0684**.
+
+  * **Full Member**, **Sigma Xi** — The Scientific Research Honor Society (member **20269991668**, inducted Mar 2026).
+
+  * **Member**, **IEEE** — member **102037294**.
+
+  * **Researcher ID**: [ORCID 0009-0002-2125-1805](https://orcid.org/0009-0002-2125-1805).
+
+
+  #### Peer review & service
+
+  * **Peer reviewer**, **[Journal of Open Source Software (JOSS)](https://joss.theoj.org/)** — reviews of open-source research software submissions.
+
+
+  #### Patents
+
+  * **Inventor** on **two granted U.S. patents** (platform / fintech–related inventions; details available on request).
+
+
+  #### Other
+
+  * **Google Developer Program** (beta) · **Google I/O 2023** attendee.

@@ -1,9 +1,31 @@
 {{ with .Site.Data.honorsSection }}
 {{ if .enable }}
-<section class="section about" id="honors">
+{{/* Portio's .about section uses .text-light for dark-on-image areas; honors sits on white — force readable contrast. */}}
+<style>
+  #honors.honors-readable .honors-body,
+  #honors.honors-readable .honors-body h4,
+  #honors.honors-readable .honors-body h5,
+  #honors.honors-readable .honors-body p,
+  #honors.honors-readable .honors-body li {
+    color: #1a1a1a !important;
+  }
+  #honors.honors-readable .honors-body a {
+    color: #0b5ed7;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  #honors.honors-readable .honors-body a:hover {
+    color: #084298;
+  }
+  #honors.honors-readable .about_header h2 {
+    color: #111 !important;
+  }
+</style>
+<section class="section about honors-readable" id="honors">
     <div class="container">
         <div class="row text-center">
-            <div class="col-lg-8 offset-lg-2">
+            <div class="col-lg-10 offset-lg-1">
                 <div class="about_header mb-5">
                     <span class="top-title">{{ .topTitle }}</span>
                     {{ .title | markdownify }}
@@ -11,8 +33,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-8 offset-lg-2">
-                <div class="mb-4 text-light text-left">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="honors-body mb-5 text-left">
                     {{ .content | markdownify }}
                 </div>
             </div>
