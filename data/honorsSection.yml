@@ -10,9 +10,15 @@ content: |
 
   #### Scholarly & research publications
 
-  * **EmbedGuard** — *Cross-Layer Detection and Cryptographic Attestation for Secure Retrieval-Augmented Generation* — under peer review, [PeerJ Computer Science](https://peerj.com/) (Cryptography, Security and Privacy). Preprint & artifacts: [Zenodo DOI 10.5281/zenodo.18364920](https://zenodo.org/records/18364920) · [Implementation (GitHub)](https://github.com/neerazz/embedguard) · [Manuscript portal](https://peerj.com/manuscripts/131685/).
+  Three peer-reviewed papers published in 2026 — all open access (CC-BY 4.0), all DOI-registered and Scopus-indexed.
 
-  * **Work in progress** — GenOps (governance for enterprise AI in CI/CD); TriArchitect (multi-agent safe migration); RuntimeGuard AI (runtime verification for autonomous agents).
+  * **EmbedGuard** — *Cross-Layer Detection and Provenance Attestation for Adversarial Embedding Attacks in RAG Systems* — [IJCESEN](https://doi.org/10.22399/ijcesen.4869) (International Journal of Computational and Experimental Science and Engineering, **Scopus Q3**), Vol 12 No 1, pp 589–602, 2026. [DOI 10.22399/ijcesen.4869](https://doi.org/10.22399/ijcesen.4869) · [Implementation (GitHub)](https://github.com/neerazz/embedguard). 94.7% detection rate on optimization-based attacks at 51 ms mean overhead, evaluated on a 500K-embedding production-scale system.
+
+  * **GenOps** — *A Governance-First Architecture for Embedding Generative AI into CI/CD Pipelines* — [JISEM](https://doi.org/10.52783/jisem.v11i1s.14322) (Journal of Information Systems Engineering and Management, **Scopus Q4 + DOAJ**), Vol 11(1s), pp 1518–1539, 2026. [DOI 10.52783/jisem.v11i1s.14322](https://doi.org/10.52783/jisem.v11i1s.14322). Companion talk at Conf42 DevOps 2026. 55.7% reduction in median deployment cycle time with zero safety-policy violations across 15,847 deployments.
+
+  * **RuntimeGuard-AI** — *Scalable Tamper-Evident Accountability for High-Risk AI Systems Under the EU AI Act* — [JoCAAA](https://doi.org/10.48047/jocaaa.2026.35.01.87) (Journal of Computational Analysis and Applications, Eudoxus Press), Vol 35 No 1, pp 1074–1090, 2026. [DOI 10.48047/jocaaa.2026.35.01.87](https://doi.org/10.48047/jocaaa.2026.35.01.87). Companion talk at Conf42 LLMs 2026. First open-source compliance architecture for EU AI Act Article 14, using Groth16 zero-knowledge proofs at 2.3–4.1% latency overhead.
+
+  * **TriArchitect** *(under review)* — *A Shared-State Multi-Agent Framework for Safe Java Code Migration* — submitted to IJIES (INASS).
 
 
   #### Technical writing & community reach

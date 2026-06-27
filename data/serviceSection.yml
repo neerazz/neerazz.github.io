@@ -18,7 +18,7 @@ service:
   - content: >
       #### GenAI & AI Security Research
 
-      I build LLM-powered developer tools that streamline workflows, and I research adversarial threats to AI systems — including RAG pipeline poisoning and embedding manipulation (EmbedGuard, PeerJ CS under review).
+      I build LLM-powered developer tools that streamline workflows, and I research adversarial threats to AI systems — including RAG pipeline poisoning and embedding manipulation (EmbedGuard, published in IJCESEN, Scopus Q3).
     image: images/service/creative.svg
   - content: >
       #### DevSecOps & Distributed Systems Design
