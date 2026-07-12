@@ -3,7 +3,7 @@ topTitle: My Journey
 title: >
   ## Experience & Education
 
-  Staff-level engineer with 15+ years turning complex challenges into scalable, secure, and reliable solutions across fintech, e-commerce, AR/VR, and financial services.
+  Staff-level engineer building scalable, secure, and reliable systems since 2011 across fintech, e-commerce, AR/VR, and financial services.
 
 tab1Name: Education
 tab2Name: Experience
@@ -14,12 +14,12 @@ experience:
   - content: >
       ### Parafin (Dec 2025–Present) — Staff Security Infrastructure Engineer
 
-      Architecting Zero Trust security infrastructure for an $8B+ embedded lending platform powering capital access for businesses on Amazon, DoorDash, Walmart, and TikTok Shop. Leading security mock drills, incident response planning, BC/DR strategy, and PII governance. Operating across a YC-backed, $750M-valued fintech with mission-critical uptime requirements.
+      Architecting Zero Trust security infrastructure for an embedded-lending platform with $35B+ in capital offers extended to 50,000+ businesses across partners including Amazon, DoorDash, Walmart, Gusto, and TikTok Shop. Leading security mock drills, incident response planning, BC/DR strategy, and PII governance at a YC-backed fintech.
     time: Dec 2025–Present
   - content: >
       ### Meta — Reality Labs (Jun 2024–Dec 2025) — Staff Software Engineer
 
-      Led CI/CD modernization (Project Chesterfield) for Quest VR and Ray-Ban Meta products. Built a GenAI-powered migration tool that eliminated 95% of manual onboarding effort and saved $386K/year. Shipped a Unified Build Model metadata service handling 150M+ requests/day at 99.9% reliability. Mentored 6 engineers, 3 of whom were promoted to Staff within 12 months.
+      Led CI/CD modernization (Project Chesterfield) for Quest VR and Ray-Ban Meta products. Built a GenAI-powered migration tool that eliminated 95% of manual onboarding effort and saved $386K/year. Architected a Unified Build Model metadata service for 100K+ build operations/month, reducing failures by 99% and reclaiming 22K compute-hours/month. Mentored 6 senior engineers, 3 of whom were promoted to Staff within 12 months.
     time: Jun 2024–Dec 2025
   - content: >
       ### Raymond James Financial (Apr 2024–Jun 2024) — Lead Software Development Engineer
@@ -34,12 +34,12 @@ experience:
   - content: >
       ### JPMorgan Chase — CIB (Mar 2019–Dec 2021) — Senior Software Engineer
 
-      Developed an escrow platform managing $40B+ in deposits and a Saga-pattern payment microservice processing 10K+ daily transactions. Built a centralized authentication framework adopted by 18+ CIB teams, reducing customer support call volume by 30%.
+      Developed an escrow platform managing $40B+ in deposits and a Saga-pattern payment microservice processing 10K+ daily transactions. Unified three data systems into one portal, reducing support volume by 30%, and built a centralized authentication framework adopted by 18+ CIB teams.
     time: Mar 2019–Dec 2021
   - content: >
       ### American Express — via TCS (Dec 2011–Mar 2019) — Senior Software Developer
 
-      Re-engineered monolithic claims and card-processing systems into microservices architecture, achieving 60% code reduction and 66% faster API response times. Built event-driven B2B integrations handling 2M+ monthly requests across 15+ carrier partners. Migrated COBOL-based loyalty logic to Spring MVC across 30 international markets. Worked across Bangalore, Montevideo (Uruguay), and Phoenix.
+      Re-engineered monolithic claims and card-processing systems into microservices architecture, achieving 60% complexity reduction and 66% faster API response times. Built event-driven B2B integrations handling 2M+ monthly requests across 15+ carrier partners. Migrated COBOL-based loyalty logic to Spring MVC across 30 international markets. Worked across Bangalore, Montevideo (Uruguay), and Phoenix.
     time: Dec 2011–Mar 2019
 
 education:

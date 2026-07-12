@@ -13,12 +13,12 @@ service:
   - content: >
       #### Cloud Architecture & Platform Engineering
 
-      I design and build resilient, scalable infrastructure on AWS and GCP using Kubernetes, Terraform, and modern cloud-native tools. I create platforms with 99.9%+ reliability that developers love to build on.
+      I design and build resilient, scalable infrastructure on AWS and GCP using Kubernetes, Terraform, and modern cloud-native tools. I focus on paved-road platforms that developers can trust under production pressure.
     image: images/service/web.svg
   - content: >
       #### GenAI & AI Security Research
 
-      I build LLM-powered developer tools that streamline workflows, and I research adversarial threats to AI systems — including RAG pipeline poisoning and embedding manipulation (EmbedGuard, published in IJCESEN, Scopus Q3).
+      I build LLM-powered developer tools that streamline workflows, and I research adversarial threats to AI systems — including RAG pipeline poisoning and embedding manipulation (EmbedGuard), CI/CD governance for GenAI (GenOps), and screen-share content mediation (PerceptFence).
     image: images/service/creative.svg
   - content: >
       #### DevSecOps & Distributed Systems Design

@@ -10,20 +10,20 @@ content: |
 
   #### Scholarly & research publications
 
-  Three peer-reviewed papers published in 2026 — all open access (CC-BY 4.0), all DOI-registered and Scopus-indexed.
+  Three peer-reviewed papers published in 2026 — all open access (CC-BY 4.0) and DOI-registered. Current public profiles should not claim 2026 article-level Scopus indexing without a fresh indexing exhibit.
 
-  * **EmbedGuard** — *Cross-Layer Detection and Provenance Attestation for Adversarial Embedding Attacks in RAG Systems* — [IJCESEN](https://doi.org/10.22399/ijcesen.4869) (International Journal of Computational and Experimental Science and Engineering, **Scopus Q3**), Vol 12 No 1, pp 589–602, 2026. [DOI 10.22399/ijcesen.4869](https://doi.org/10.22399/ijcesen.4869) · [Implementation (GitHub)](https://github.com/neerazz/embedguard). 94.7% detection rate on optimization-based attacks at 51 ms mean overhead, evaluated on a 500K-embedding production-scale system.
+  * **EmbedGuard** — *Cross-Layer Detection and Provenance Attestation for Adversarial Embedding Attacks in RAG Systems* — [IJCESEN](https://doi.org/10.22399/ijcesen.4869), Vol 12 No 1, pp 589–602, 2026. [DOI 10.22399/ijcesen.4869](https://doi.org/10.22399/ijcesen.4869) · [Implementation (GitHub)](https://github.com/neerazz/embedguard). The paper reports a 94.7% detection rate on optimization-based attacks at 51 ms mean overhead, evaluated on a 500K-embedding production-scale system.
 
-  * **GenOps** — *A Governance-First Architecture for Embedding Generative AI into CI/CD Pipelines* — [JISEM](https://doi.org/10.52783/jisem.v11i1s.14322) (Journal of Information Systems Engineering and Management, **Scopus Q4 + DOAJ**), Vol 11(1s), pp 1518–1539, 2026. [DOI 10.52783/jisem.v11i1s.14322](https://doi.org/10.52783/jisem.v11i1s.14322). Companion talk at Conf42 DevOps 2026. 55.7% reduction in median deployment cycle time with zero safety-policy violations across 15,847 deployments.
+  * **GenOps** — *A Governance-First Architecture for Embedding Generative AI into CI/CD Pipelines* — [JISEM](https://doi.org/10.52783/jisem.v11i1s.14322), Vol 11(1s), pp 1518–1539, 2026. [DOI 10.52783/jisem.v11i1s.14322](https://doi.org/10.52783/jisem.v11i1s.14322). Companion talk at Conf42 DevOps 2026. The paper reports a 55.7% reduction in median deployment cycle time with zero safety-policy violations across 15,847 deployments.
 
-  * **RuntimeGuard-AI** — *Scalable Tamper-Evident Accountability for High-Risk AI Systems Under the EU AI Act* — [JoCAAA](https://doi.org/10.48047/jocaaa.2026.35.01.87) (Journal of Computational Analysis and Applications, Eudoxus Press), Vol 35 No 1, pp 1074–1090, 2026. [DOI 10.48047/jocaaa.2026.35.01.87](https://doi.org/10.48047/jocaaa.2026.35.01.87). Companion talk at Conf42 LLMs 2026. First open-source compliance architecture for EU AI Act Article 14, using Groth16 zero-knowledge proofs at 2.3–4.1% latency overhead.
+  * **RuntimeGuard-AI** — *Scalable Tamper-Evident Accountability for High-Risk AI Systems Under the EU AI Act* — [JoCAAA](https://doi.org/10.48047/jocaaa.2026.35.01.87) (Journal of Computational Analysis and Applications, Eudoxus Press), Vol 35 No 1, pp 1074–1090, 2026. [DOI 10.48047/jocaaa.2026.35.01.87](https://doi.org/10.48047/jocaaa.2026.35.01.87). Companion talk at Conf42 LLMs 2026. The paper presents an open-source compliance architecture for EU AI Act Article 14, using Groth16 zero-knowledge proofs at 2.3–4.1% latency overhead.
 
-  * **TriArchitect** *(under review)* — *A Shared-State Multi-Agent Framework for Safe Java Code Migration* — submitted to IJIES (INASS).
+  * **PerceptFence** *(support artifact, not a peer-reviewed paper)* — *Content-Mediation Architecture and Deterministic Coverage for Screen-Share AI Assistants* — [Zenodo v0.3.0 DOI 10.5281/zenodo.21289219](https://doi.org/10.5281/zenodo.21289219) · [all-versions DOI 10.5281/zenodo.21150725](https://doi.org/10.5281/zenodo.21150725) · [GitHub](https://github.com/asmitanegi/PerceptFence). DataCite type: SoftwareSourceCode.
 
 
   #### Technical writing & community reach
 
-  **18+** articles on [LinkedIn](https://www.linkedin.com/in/neerajkumarsinghb/recent-activity/articles/), [Dev.to](https://dev.to/neerazz), and [Hashnode](https://hashnode.com/@neerazz) — agentic AI security, MCP risk, RAG pipelines, Kubernetes, Kafka, distributed systems. Weekly newsletter: [*Securing the Agentic Stack*](https://www.linkedin.com/newsletters/7456155337700708352/). Representative titles include *Your Agent Can't Tell What It Was Told From What It Read* (2026) and *Prompt Engineering vs Context Engineering vs Reasoning Engineering* (2026).
+  Writing on [LinkedIn](https://www.linkedin.com/in/neerajkumarsinghb/recent-activity/articles/), [Dev.to](https://dev.to/neerazz), [Hashnode](https://hashnode.com/@neerazz), and the [*Securing the Agentic Stack*](https://www.linkedin.com/newsletters/7456155337700708352/) newsletter — agentic AI security, MCP risk, RAG pipelines, Kubernetes, Kafka, and distributed systems. Representative titles include *Your Agent Can't Tell What It Was Told From What It Read* (2026) and *Prompt Engineering vs Context Engineering vs Reasoning Engineering* (2026).
 
 
   #### Speaking
@@ -32,25 +32,29 @@ content: |
 
   * **Conf42 DevOps 2026** — invited talk: *GenOps: A Governance-Driven Model for Safe, High-Velocity AI in CI/CD Pipelines* — [session page](https://www.conf42.com/DevOps_2026_Neeraj_Kumar_Singh_Beshane_governance_genai_velocity) · [recording (YouTube)](https://www.youtube.com/watch?v=YcGxfYXwUvI).
 
+  * **CIMA 2026, NIT Puducherry** — invited talk: *Governing Generative AI in Production: Building Trustworthy and Secure AI Systems* — [talk page](https://www.scrs.in/conference/CIMA2026/speaker/talk/22984).
+
 
   #### Open source
 
-  * **[FAANG](https://github.com/neerazz/FAANG)** — interview-prep algorithms & patterns (**~1.9K** GitHub stars, **490+** forks).
+  * **[FAANG](https://github.com/neerazz/FAANG)** — interview-prep algorithms & patterns (**1,880** GitHub stars, **489** forks as of Jul 2026).
 
   * **[EmbedGuard](https://github.com/neerazz/embedguard)** — reproducible RAG-security research framework (Docker, tests, benchmarks).
 
-  * **[faang-system-design](https://github.com/neerazz/faang-system-design)** — curated system-design notes.
+  * **[PerceptFence](https://github.com/asmitanegi/PerceptFence)** — DOI-backed software/reproducibility artifact for screen-share AI assistant content mediation.
+
+  * **[faang-system-design](https://github.com/neerazz/faang-system-design)** — curated system-design notes (**179** stars, **41** forks as of Jul 2026).
 
 
   #### Fellowships & professional memberships
 
   * **Fellow**, **Hackathon Raptors** — UK Community Interest Company **[15557917](https://find-and-update.company-information.service.gov.uk/company/15557917)**; peer-elected fellowship for sustained builder / hackathon achievement (**Fellow #14975**).
 
-  * **Fellow (FIICSPA)**, **International Institute of Computer Science Professional Association (IICSPA)** — member ID **08D61A0684**.
+  * **Fellow (FIICSPA)**, **International Institute of Computer Science Professional Association (IICSPA)**.
 
-  * **Full Member**, **Sigma Xi** — The Scientific Research Honor Society (member **20269991668**, inducted Mar 2026).
+  * **Full Member**, **Sigma Xi** — The Scientific Research Honor Society, inducted Mar 2026.
 
-  * **Member**, **IEEE** — member **102037294**.
+  * **Member**, **IEEE**.
 
   * **Researcher ID**: [ORCID 0009-0002-2125-1805](https://orcid.org/0009-0002-2125-1805).
 
@@ -58,6 +62,8 @@ content: |
   #### Peer review & service
 
   * **Peer reviewer**, **[Journal of Open Source Software (JOSS)](https://joss.theoj.org/)** — reviews of open-source research software submissions.
+
+  * **Mentor and judge**, **[Apart Research Global South AI Safety Hackathon 2026](https://www.apartresearch.com/sprints/global-south-ais-hackathon-2026-06-19-to-2026-06-21)** — public roster and organizer letter on file.
 
 
 
