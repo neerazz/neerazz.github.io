@@ -1,0 +1,26 @@
+{
+  "scope": "synthetic only; no real build, network, or sandbox",
+  "decisions": [
+    {
+      "kind": "synthetic-demonstration-not-live-containment",
+      "destination": "fixture-documentation",
+      "narration": "Read the documentation.",
+      "policy_revision": "teaching-policy",
+      "outcome": "ALLOW",
+      "reason": "policy_match",
+      "dispatched": true
+    },
+    {
+      "kind": "synthetic-demonstration-not-live-containment",
+      "destination": "fixture-outbound",
+      "narration": "The build needs public information.",
+      "policy_revision": "teaching-policy",
+      "outcome": "DENY",
+      "reason": "not_allowed",
+      "dispatched": false
+    }
+  ],
+  "fake_sink_calls": [
+    "fixture-documentation"
+  ]
+}

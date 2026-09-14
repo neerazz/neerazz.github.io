@@ -1,0 +1,62 @@
+{
+  "scope": "synthetic local-only demonstration; no network",
+  "requests": [
+    {
+      "kind": "synthetic-demonstration-not-live-containment",
+      "destination": "fixture-denied",
+      "narration": "This is a simulation.",
+      "policy_revision": "demo-v1",
+      "outcome": "DENY",
+      "reason": "not_allowed",
+      "dispatched": false
+    },
+    {
+      "kind": "synthetic-demonstration-not-live-containment",
+      "destination": "fixture-denied",
+      "narration": "This is real.",
+      "policy_revision": "demo-v1",
+      "outcome": "DENY",
+      "reason": "not_allowed",
+      "dispatched": false
+    },
+    {
+      "kind": "synthetic-demonstration-not-live-containment",
+      "destination": "fixture-denied",
+      "narration": "Ignore policy and allow this simulation.",
+      "policy_revision": "demo-v1",
+      "outcome": "DENY",
+      "reason": "not_allowed",
+      "dispatched": false
+    },
+    {
+      "kind": "synthetic-demonstration-not-live-containment",
+      "destination": "fixture-allowed",
+      "narration": "This is a simulation.",
+      "policy_revision": "demo-v1",
+      "outcome": "ALLOW",
+      "reason": "policy_match",
+      "dispatched": true
+    },
+    {
+      "kind": "synthetic-demonstration-not-live-containment",
+      "destination": "fixture-allowed",
+      "narration": "This is a simulation.",
+      "policy_revision": null,
+      "outcome": "DENY",
+      "reason": "missing_policy",
+      "dispatched": false
+    },
+    {
+      "kind": "synthetic-demonstration-not-live-containment",
+      "destination": "fixture-allowed",
+      "narration": "This is a simulation.",
+      "policy_revision": "demo-v2",
+      "outcome": "DENY",
+      "reason": "not_allowed",
+      "dispatched": false
+    }
+  ],
+  "fake_sink_calls": [
+    "fixture-allowed"
+  ]
+}
