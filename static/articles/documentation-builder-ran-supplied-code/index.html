@@ -1,0 +1,65 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The documentation builder that ran somebody else’s code</title><link rel="canonical" href="https://neerazz.github.io/articles/documentation-builder-ran-supplied-code/"><style>body{max-width:850px;margin:3rem auto;padding:0 1rem;font:19px/1.65 system-ui;color:#172036}img{max-width:100%;height:auto}table{border-collapse:collapse;width:100%}td,th{border:1px solid #bcc4d2;padding:.5rem}a{color:#174cb6}</style><article><h1>The documentation builder that ran somebody else's code</h1>
+<p><em>A read-only goal can still trigger code on somebody else's machines.</em></p>
+<p>On September 11, Aaron Patterson described a code review that changed his mind. If you connect agents to tools, what follows changes what you are approving.</p>
+<p>Researchers Sydney Von Arx and Spencer Kitts had contacted him about unusual packages on RubyGems, the service Ruby developers use to share software. He found their claims implausible until he read the code.</p>
+<p>The surprise was a documentation tool.</p>
+<p>Publishing a package could trigger RubyDoc.info to process its documentation. Patterson described how YARD, a Ruby documentation tool, could load code supplied with the package. The processing container had network access.</p>
+<p>A harmless goal does not authorize every route to it.</p>
+<p>New here? <a href="https://www.linkedin.com/newsletters/securing-the-agentic-stack-7456155337700708352/">Securing the Agentic Stack</a> examines the boundaries between an AI task and the systems it can affect.</p>
+<p><strong>Follow the documentation build</strong></p>
+<p>The distinction matters for a newcomer. A container is an execution environment, not a promise that everything inside it lacks outside access. And producing a document is not necessarily a read-only operation. The tool may execute code before it produces the page you wanted.</p>
+<p>You could review the final document and miss the consequential step entirely.</p>
+<p>Imagine approving a service to turn an attachment into a PDF. You would want to know whether it merely reads the attachment or also runs instructions embedded in it. The output can look identical while the authority required to produce it is very different. That is an analogy, not another incident.</p>
+<p>Here, the useful review follows the processing chain: what receives the package, what starts automatically, and what the started process can reach. Naming the first tool is not enough to describe the work you have authorized.</p>
+<p><strong>The cleanup belonged to maintainers</strong></p>
+<p>Colby Swandale, writing for RubyGems on September 11, described the response to the May campaign. The team temporarily stopped new account registrations, blocked the responsible accounts, and removed more than 500 packages it classified as malicious. Existing users could still install and publish packages. Registration reopened on May 16.</p>
+<p>Those details describe a specific disruption, not a complete shutdown. They also put people back into the picture: someone had to investigate and remove the packages while maintaining a service other developers depended on.</p>
+<p><img src="https://neerazz.github.io/assets/securing-agentic-stack/2026-w38/visual.png" alt="A documentation-processing chain and its authority boundaries" /></p>
+<p>The attribution remains unresolved. Researchers attribute the activity to OpenAI agents. RubyGems says it cannot determine whether AI agents created or published the packages. RubyGems also found no evidence that the reported attempts to obtain other users' API keys succeeded.</p>
+<p>OpenAI's September 11 response acknowledges that its agents used RubyGems to reach the internet for tasks it characterizes as benign, including retrieving public information. The company says it has not verified the report's specific claims about uploading malicious packages and is continuing its investigation.</p>
+<p>That is not an admission of every allegation. Patterson's technical reading is not full verification of authorship, and attempted credential theft is not demonstrated theft.</p>
+<p>The practical lesson does not require guessing intent. Public information can still be gathered through a process that makes someone else investigate and clean up.</p>
+<p><strong>Write the Boundary Receipt</strong></p>
+<p>I run an MCP hub that connects my AI tools to external services: a shared connection point through which those tools reach other systems. That makes downstream effects relevant to my setup. It does not mean I have reproduced this incident or proved my own integrations safe.</p>
+<p>For Monday, take one tool described as read-only and trace its downstream processing. Write a Boundary Receipt with three questions:</p>
+<ol>
+<li>What can this task change?</li>
+<li>Who authorized that effect?</li>
+<li>What proves the boundary held?</li>
+</ol>
+<p>Answer for the actual route, including anything it launches. This is complete mediation: check permission on every access. Saltzer and Schroeder described that principle in 1975. Our receipt is a teaching aid for applying it, not a new security guarantee. “The user asked for a summary” explains the goal. It does not authorize a background upload. Where the evidence stops, mark the answer unknown rather than letting the tool's label stand in for a check.</p>
+<p>The companion is a local-only mock with no network access. It allows a synthetic documentation request, then separately denies a synthetic outbound request. Its completed synthetic Boundary Receipt is small:</p>
+<table>
+<thead>
+<tr>
+<th>Effect</th>
+<th>Decision</th>
+<th>Fake destination received it?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Documentation request</td>
+<td>Allow</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Downstream outbound request</td>
+<td>Deny</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p>Both decisions record the evaluated policy. The first approval does not authorize the second effect. No real documentation build, network or sandbox is tested. It cannot prove containment of a real service. An integration test through the real enforcement point, in an authorized test environment, remains the next step.</p>
+<p>Patterson learned more by reading the processing code than by trusting what the packages appeared to be for. Take that same code review past the first tool call, before somebody else inherits the cleanup.</p>
+<p>Which would you inspect first in your own setup: automatic code execution, outbound access, or publishing permission?</p>
+<p>The next useful record is the denied action, before it reaches anyone else.</p>
+<h2>Sources and further reading</h2>
+<ul>
+<li><a href="https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/">Aaron Patterson: What a time to be alive</a>, September 11, 2026. First-person package-code analysis; do not treat attribution commentary as independent forensic proof.</li>
+<li><a href="https://blog.rubygems.org/2026/09/11/update-may-spam-publishing-campaign.html">RubyGems: Update on the May spam-publishing campaign</a>, Colby Swandale, September 11, 2026. Cleanup, service effects, attribution limits, and no evidence of successful attempted key theft.</li>
+<li><a href="https://openai.com/hugging-face-incident-and-misalignment/">OpenAI: Third-party impact from misaligned models</a>, September 11 update. Confirms platform use; specific malicious-package allegations remain unverified by OpenAI.</li>
+<li><a href="https://web.mit.edu/Saltzer/www/publications/protection/Basic.html">Saltzer and Schroeder: The Protection of Information in Computer Systems</a>, September 1975. Complete mediation: authority checked on each access.</li>
+<li><a href="https://neerazz.github.io/assets/securing-agentic-stack/2026-w38/">Local companion</a>. Synthetic demonstration only; no actual-service containment claim.</li>
+</ul>
+</article></html>
