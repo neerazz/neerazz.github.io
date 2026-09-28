@@ -20,7 +20,7 @@ content: |
 
   * **TriArchitect** — *A Shared-State Multi-Agent Framework for Safe Java Code Migration* — [IJCISIM](https://doi.org/10.70917/ijcisim-2026-4917) (International Journal of Computer Information Systems and Industrial Management Applications, Cerebration Science Publishing), Vol 18 No 18s, pp 739–751, published 19 August 2026. [DOI 10.70917/ijcisim-2026-4917](https://doi.org/10.70917/ijcisim-2026-4917) · [PDF](https://cspub-ijcisim.org/index.php/ijcisim/article/download/4917/4055). A shared-state multi-agent architecture — Typed Migration Graph plus a Validator-Veto Protocol — for state-aware, safety-checked Java legacy migration.
 
-  * **PerceptFence** *(support artifact, not a peer-reviewed paper)* — *Content-Mediation Architecture and Deterministic Coverage for Screen-Share AI Assistants* — [Zenodo v0.3.0 DOI 10.5281/zenodo.21289219](https://doi.org/10.5281/zenodo.21289219) · [all-versions DOI 10.5281/zenodo.21150725](https://doi.org/10.5281/zenodo.21150725) · [GitHub](https://github.com/asmitanegi/PerceptFence). DataCite type: SoftwareSourceCode.
+  * **PerceptFence** *(with Asmita Negi; research artifact, not a peer-reviewed paper)* — *Content-Mediation Architecture and Deterministic Coverage for Screen-Share AI Assistants* — v0.4.0 (Sep 2026) tests it on the real screen-share path: 480 held-out developer-support screens rendered in Chrome and read back by OCR, with the rules frozen before testing. It neutralised 889 of 968 leaked secrets and PII values (0.918), against 0.581 for Microsoft Presidio and 0.179 for gitleaks. [Zenodo v0.4.0 DOI 10.5281/zenodo.23004093](https://doi.org/10.5281/zenodo.23004093) · [all-versions DOI 10.5281/zenodo.21150725](https://doi.org/10.5281/zenodo.21150725) · [GitHub release v0.4.0](https://github.com/asmitanegi/PerceptFence/releases/tag/v0.4.0). Preprint submitted to arXiv (cs.CR).
 
 
   #### Technical writing & community reach
@@ -43,7 +43,7 @@ content: |
 
   * **[EmbedGuard](https://github.com/neerazz/embedguard)** — reproducible RAG-security research framework (Docker, tests, benchmarks).
 
-  * **[PerceptFence](https://github.com/asmitanegi/PerceptFence)** — DOI-backed software/reproducibility artifact for screen-share AI assistant content mediation.
+  * **[PerceptFence](https://github.com/asmitanegi/PerceptFence)** — DOI-backed research artifact for screen-share AI assistant content mediation, with a Chrome + OCR evaluation harness (v0.4.0).
 
   * **[faang-system-design](https://github.com/neerazz/faang-system-design)** — curated system-design notes (**179** stars, **41** forks as of Jul 2026).
 
