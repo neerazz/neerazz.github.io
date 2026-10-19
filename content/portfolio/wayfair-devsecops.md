@@ -5,7 +5,7 @@ thumbnail: images/portfolio/wayfair-devsecops.png
 service: DevSecOps, Policy-as-Code, Identity
 client: Wayfair (~20K applications across the platform)
 shortDescription: >
-  DevSecOps platform serving 50M+ security checks/month with a 3% false-positive rate; selected as 1 of 3 architects from 50+ to define Wayfair's security roadmap.
+  DevSecOps platform serving 50M+ security checks/month with a 3% false-positive rate.
 challenge: >
   20K+ applications across the engineering org, no consistent security posture across teams, and a legacy scanner stack pushing a >25% false-positive rate. The combination produced exactly the failure mode you would expect — alert fatigue, ignored findings, and security teams that had stopped being trusted by application teams. The platform needed both new tooling and a new operating model.
 solution: >
@@ -16,4 +16,4 @@ Throughput at steady state landed at 50M+ security checks per month with the fal
 
 The architecture choice that made the rest possible was self-service enrollment. Centralized security teams cannot hand-hold 20K applications, and any model that requires them to do so collapses under its own weight. Policy-as-code with OPA + Kyverno meant security policies were code that lived next to application code, reviewed in pull requests like anything else. Unified OAuth + mTLS gave services one identity story instead of a per-team improvisation. Centralized SBOM gave incident response a single place to look when a CVE dropped.
 
-Selected as one of three architects from a pool of 50+ to define the Wayfair security roadmap. Mentored 20+ engineers over the program; eight were promoted to senior or staff during that window.
+Mentored 20+ engineers over the program; eight were promoted to senior or staff during that window.
