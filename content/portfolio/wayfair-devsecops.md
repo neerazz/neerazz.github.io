@@ -1,9 +1,9 @@
 ---
-title: "Wayfair DevSecOps Platform: Policy-as-Code at 20K Apps"
+title: "Wayfair DevSecOps Platform: Policy-as-Code Across 15 Business Units"
 date: 2023-06-01T00:00:00.000+00:00
 thumbnail: images/portfolio/wayfair-devsecops.png
 service: DevSecOps, Policy-as-Code, Identity
-client: Wayfair (~20K applications across the platform)
+client: Wayfair (adopted by all 15 business units)
 shortDescription: >
   DevSecOps platform serving 50M+ security checks/month with a 3% false-positive rate.
 challenge: >
@@ -14,6 +14,6 @@ solution: >
 ---
 Throughput at steady state landed at 50M+ security checks per month with the false-positive rate driven down to 3% — the alert-fatigue dynamic that had broken trust with application teams reversed once the noise dropped below the threshold where engineers stop reading alerts. The identity platform sits at 125M+ API calls per week with 99.97% uptime, which is the load profile that made teams willing to depend on it for production paths.
 
-The architecture choice that made the rest possible was self-service enrollment. Centralized security teams cannot hand-hold 20K applications, and any model that requires them to do so collapses under its own weight. Policy-as-code with OPA + Kyverno meant security policies were code that lived next to application code, reviewed in pull requests like anything else. Unified OAuth + mTLS gave services one identity story instead of a per-team improvisation. Centralized SBOM gave incident response a single place to look when a CVE dropped.
+The architecture choice that made the rest possible was self-service enrollment. Centralized security teams cannot hand-hold every application in 15 business units, and any model that requires them to do so collapses under its own weight. Policy-as-code with OPA + Kyverno meant security policies were code that lived next to application code, reviewed in pull requests like anything else. Unified OAuth + mTLS gave services one identity story instead of a per-team improvisation. Centralized SBOM gave incident response a single place to look when a CVE dropped.
 
 Mentored 20+ engineers over the program; eight were promoted to senior or staff during that window.
