@@ -2,13 +2,13 @@ enable: true
 topTitle: About
 title: '## My Story'
 content: >
-  #### My journey in tech began with a simple question: "How can this be better?" It's a question that has taken me from writing COBOL adapters for American Express across three continents to architecting Zero Trust security infrastructure for embedded lending at scale.
+  #### I'm a Staff Security Infrastructure Engineer working on AI-agent security, Zero Trust, and cloud security. My journey in tech began with a simple question: "How can this be better?" It's a question that has taken me from writing COBOL adapters for American Express across three continents to building Zero Trust and AI-agent security for embedded lending at scale.
 
 
-  Today at Parafin, I work on security infrastructure for a platform that has extended $35B+ in capital offers to 50,000+ businesses across partners including Amazon, DoorDash, Walmart, Gusto, and TikTok Shop. I've been named a **Gold Laureate** in the Aureum Technology Awards (Season 3, NLP Achievement) and elected **Fellow** of Hackathon Raptors. I've published four peer-reviewed AI-security papers in 2026 (EmbedGuard, GenOps, RuntimeGuard-AI, TriArchitect), released the PerceptFence Zenodo/GitHub research artifact, spoken at Conf42 DevOps, Conf42 LLMs, and CIMA 2026, and earned Fellowship in IICSPA and Full Membership in Sigma Xi — The Scientific Research Honor Society.
+  Today I'm the first security engineer at Parafin, which has funded $3B+ to 60,000+ small businesses and is joining Stripe. I built its vulnerability-management program from zero, ran the SOC 2 Type II program end to end, and own AI governance and MCP tool-access security. I've published four peer-reviewed AI-security papers in 2026 (EmbedGuard, GenOps, RuntimeGuard-AI, TriArchitect), posted two arXiv preprints (PerceptFence and The Acknowledgment Point Is the System), spoken at Conf42 DevOps, Conf42 LLMs, and CIMA 2026, and earned Full Membership in Sigma Xi — The Scientific Research Honor Society — and Fellowships in IICSPA and Hackathon Raptors.
 
 
-  I thrive on turning complex distributed systems into reliable (and slightly boring) platforms. My goal is to automate the pain points away and build security so seamless you forget it's there. Whether I'm sketching system diagrams, mentoring engineers, or debugging a gnarly distributed trace at 2am, I'm always searching for the next puzzle to solve.
+  I thrive on turning complex distributed systems into reliable (and slightly boring) platforms. My goal is to automate the pain points away and build security so seamless you forget it's there. Whether I'm sketching system diagrams, mentoring engineers (50+ so far), or debugging a gnarly distributed trace at 2am, I'm always searching for the next puzzle to solve.
 
 button1Name: My Work
 button1Target: https://github.com/neerazz

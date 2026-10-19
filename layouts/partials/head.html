@@ -1,6 +1,7 @@
 <head>
   <meta charset="utf-8" />
   <title>{{ .Title }}</title>
+  {{ with site.Params.description }}<meta name="description" content="{{ . }}" />{{ end }}
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1" />

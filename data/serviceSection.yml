@@ -6,22 +6,22 @@ title: >
   I specialize in making complex systems secure, scalable, and reliable. Here's how I help organizations thrive.
 service:
   - content: >
-      #### Security Infrastructure & Zero Trust
+      #### AI-Agent Security & Research
+
+      I secure AI agents and LLM systems — AI governance, MCP tool-access controls, and adversarial testing — and publish the research behind it: RAG embedding attacks (EmbedGuard), CI/CD governance for GenAI (GenOps), tamper-evident AI accountability (RuntimeGuard-AI), and screen-share content mediation (PerceptFence).
+    image: images/service/creative.svg
+  - content: >
+      #### Zero Trust & Security Infrastructure
 
       I design and implement Zero Trust security architectures — from identity and access management to policy-as-code enforcement and PII governance — helping organizations protect critical infrastructure without slowing down engineering velocity.
     image: images/service/branding.svg
   - content: >
-      #### Cloud Architecture & Platform Engineering
+      #### Cloud Security & Platform Engineering
 
       I design and build resilient, scalable infrastructure on AWS and GCP using Kubernetes, Terraform, and modern cloud-native tools. I focus on paved-road platforms that developers can trust under production pressure.
     image: images/service/web.svg
   - content: >
-      #### GenAI & AI Security Research
-
-      I build LLM-powered developer tools that streamline workflows, and I research adversarial threats to AI systems — including RAG pipeline poisoning and embedding manipulation (EmbedGuard), CI/CD governance for GenAI (GenOps), and screen-share content mediation (PerceptFence).
-    image: images/service/creative.svg
-  - content: >
-      #### DevSecOps & Distributed Systems Design
+      #### Software Supply-Chain Security & Distributed Systems
 
       I architect event-driven microservices and CI/CD platforms that handle millions of requests. I help teams embed security into every layer of the development lifecycle, enabling speed and safety simultaneously.
     image: images/service/branding.svg

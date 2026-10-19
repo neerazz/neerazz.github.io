@@ -10,7 +10,7 @@ content: |
 
   #### Scholarly & research publications
 
-  Four peer-reviewed papers published in 2026 — all open access and DOI-registered. Current public profiles should not claim 2026 article-level Scopus indexing without a fresh indexing exhibit.
+  Four peer-reviewed papers published in 2026 — all open access and DOI-registered — plus two arXiv preprints (not peer reviewed).
 
   * **EmbedGuard** — *Cross-Layer Detection and Provenance Attestation for Adversarial Embedding Attacks in RAG Systems* — [IJCESEN](https://doi.org/10.22399/ijcesen.4869), Vol 12 No 1, pp 589–602, 2026. [DOI 10.22399/ijcesen.4869](https://doi.org/10.22399/ijcesen.4869) · [Implementation (GitHub)](https://github.com/neerazz/embedguard). The paper reports a 94.7% detection rate on optimization-based attacks at 51 ms mean overhead, evaluated on a 500K-embedding production-scale system.
 
@@ -20,7 +20,11 @@ content: |
 
   * **TriArchitect** — *A Shared-State Multi-Agent Framework for Safe Java Code Migration* — [IJCISIM](https://doi.org/10.70917/ijcisim-2026-4917) (International Journal of Computer Information Systems and Industrial Management Applications, Cerebration Science Publishing), Vol 18 No 18s, pp 739–751, published 19 August 2026. [DOI 10.70917/ijcisim-2026-4917](https://doi.org/10.70917/ijcisim-2026-4917) · [PDF](https://cspub-ijcisim.org/index.php/ijcisim/article/download/4917/4055). A shared-state multi-agent architecture — Typed Migration Graph plus a Validator-Veto Protocol — for state-aware, safety-checked Java legacy migration.
 
-  * **PerceptFence** *(with Asmita Negi; research artifact, not a peer-reviewed paper)* — *Content-Mediation Architecture and Deterministic Coverage for Screen-Share AI Assistants* — v0.4.0 (Sep 2026) tests it on the real screen-share path: 480 held-out developer-support screens rendered in Chrome and read back by OCR, with the rules frozen before testing. It neutralised 889 of 968 leaked secrets and PII values (0.918), against 0.581 for Microsoft Presidio and 0.179 for gitleaks. [Zenodo v0.4.0 DOI 10.5281/zenodo.23004093](https://doi.org/10.5281/zenodo.23004093) · [all-versions DOI 10.5281/zenodo.21150725](https://doi.org/10.5281/zenodo.21150725) · [GitHub release v0.4.0](https://github.com/asmitanegi/PerceptFence/releases/tag/v0.4.0) · Preprint [arXiv:2609.34027](https://arxiv.org/abs/2609.34027) (cs.CR, Sep 2026; not peer reviewed).
+  Preprints (arXiv, not peer reviewed):
+
+  * **The Acknowledgment Point Is the System** — *Durable Policy-Decision Receipts for AI Audit Evidence* — sole-author preprint, arXiv cs.CR, Aug 2026. [arXiv:2608.17176](https://arxiv.org/abs/2608.17176) · [DOI 10.48550/arXiv.2608.17176](https://doi.org/10.48550/arXiv.2608.17176) · [Code (RuntimeGuard-AI v2.0.0)](https://github.com/neerazz/RuntimeGuard-AI/releases/tag/v2.0.0). Rebuilds RuntimeGuard-AI around durability/latency trade-offs, with Ed25519-signed policy-decision receipts and chained Merkle-epoch attestation.
+
+  * **PerceptFence** *(preprint, with Asmita Negi, equal contribution)* — *Content-Mediation Architecture and Deterministic Coverage for Screen-Share AI Assistants* — v0.4.0 (Sep 2026) tests it on the real screen-share path: 480 held-out developer-support screens rendered in Chrome and read back by OCR, with the rules frozen before testing. It neutralised 889 of 968 leaked secrets and PII values (0.918), against 0.581 for Microsoft Presidio and 0.179 for gitleaks. [Zenodo v0.4.0 DOI 10.5281/zenodo.23004093](https://doi.org/10.5281/zenodo.23004093) · [all-versions DOI 10.5281/zenodo.21150725](https://doi.org/10.5281/zenodo.21150725) · [GitHub release v0.4.0](https://github.com/asmitanegi/PerceptFence/releases/tag/v0.4.0) · Preprint [arXiv:2609.34027](https://arxiv.org/abs/2609.34027) · [DOI 10.48550/arXiv.2609.34027](https://doi.org/10.48550/arXiv.2609.34027) (cs.CR, Sep 2026; not peer reviewed). Research artifact on Zenodo and GitHub.
 
 
   #### Technical writing & community reach
@@ -38,6 +42,12 @@ content: |
 
 
   #### Open source
+
+  * **[NVIDIA/garak](https://github.com/NVIDIA/garak/pull/1742)** — authored the adaptive-attacks probe for the LLM red-teaming framework (PR #1742, merged; shipped in v0.16.0).
+
+  * **[Paperclip](https://github.com/paperclipai/paperclip)** — three merged PRs to the agent-orchestration platform: silent-process watchdog ([#5017](https://github.com/paperclipai/paperclip/pull/5017)), loopback routing fix ([#5102](https://github.com/paperclipai/paperclip/pull/5102)), and AWS Fargate runbook ([#3897](https://github.com/paperclipai/paperclip/pull/3897)).
+
+  * **[hermes-cursor-acp](https://github.com/neerazz/hermes-cursor-acp)** and **[hermes-antigravity-oauth](https://github.com/neerazz/hermes-antigravity-oauth)** — MIT-licensed Hermes Agent provider plugins, published to npm with OIDC provenance.
 
   * **[FAANG](https://github.com/neerazz/FAANG)** — interview-prep algorithms & patterns (**1,880** GitHub stars, **489** forks as of Jul 2026).
 

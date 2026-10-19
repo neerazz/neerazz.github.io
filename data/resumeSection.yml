@@ -3,7 +3,7 @@ topTitle: My Journey
 title: >
   ## Experience & Education
 
-  Staff-level engineer building scalable, secure, and reliable systems since 2011 across fintech, e-commerce, AR/VR, and financial services.
+  Staff Security Infrastructure Engineer building secure, scalable, and reliable systems since 2011 across fintech, e-commerce, AR/VR, and financial services.
 
 tab1Name: Education
 tab2Name: Experience
@@ -14,12 +14,12 @@ experience:
   - content: >
       ### Parafin (Dec 2025–Present) — Staff Security Infrastructure Engineer
 
-      Architecting Zero Trust security infrastructure for an embedded-lending platform with $35B+ in capital offers extended to 50,000+ businesses across partners including Amazon, DoorDash, Walmart, Gusto, and TikTok Shop. Leading security mock drills, incident response planning, BC/DR strategy, and PII governance at a YC-backed fintech.
+      First security engineer at Parafin, which has funded $3B+ to 60,000+ small businesses and is joining Stripe. Built the vulnerability-management program from zero (policy, asset tiering, priority matrix, SLA engine). Ran the SOC 2 Type II 2026 program end to end (12 workstreams, 86 controls). Took BC/DR from expired to exercised with a live single-AZ production failover and zero customer impact. Set the org-wide AWS security baseline (tamper-proof CloudTrail with 7-year Object Lock, Security Hub, root MFA) and led the company's first production TLS 1.3 migration. Designed OIDC + PKCE single sign-on for partner integrations and an identity/authorization map across four identity planes. Leads AI governance and MCP tool-access security, built a multi-agent design-review framework used on real ERDs, and is DRI for the annual third-party penetration test and the vendor security review program.
     time: Dec 2025–Present
   - content: >
-      ### Meta — Reality Labs (Jun 2024–Dec 2025) — Staff Software Engineer
+      ### Meta — Reality Labs (Jun 2024–Dec 2025) — Staff Software Engineer (IC6)
 
-      Led CI/CD modernization (Project Chesterfield) for Quest VR and Ray-Ban Meta products. Built a GenAI-powered migration tool that eliminated 95% of manual onboarding effort and saved $386K/year. Architected a Unified Build Model metadata service for 100K+ build operations/month, reducing failures by 99% and reclaiming 22K compute-hours/month. Mentored 6 senior engineers, 3 of whom were promoted to Staff within 12 months.
+      Software supply-chain and build-integrity work for Quest VR and Ray-Ban Meta. Led CI/CD modernization (Project Chesterfield), cutting build time by 35%. Built the Unified Build Model metadata service — the source of truth for AR/VR build artifacts — serving 450M+ requests/day and cutting build-tracking failures from 55K/day to under 500. Built a GenAI-powered migration tool that eliminated 95% of manual migration effort. Mentored 6 senior engineers, 3 of whom were promoted to Staff within 12 months.
     time: Jun 2024–Dec 2025
   - content: >
       ### Raymond James Financial (Apr 2024–Jun 2024) — Lead Software Development Engineer
@@ -29,12 +29,12 @@ experience:
   - content: >
       ### Wayfair (Jan 2022–Mar 2024) — Technical Architect
 
-      Spearheaded a DevSecOps transformation increasing vulnerability scan coverage to 50M+ checks/month and cutting incident response time by 40%. Built a next-generation OAuth 2.0 authentication platform handling 125M+ API calls/week at 99.97% uptime. Selected as 1 of 3 architects from 50+ candidates for the company-wide security roadmap. Mentored 20+ engineers (8 promoted to senior/staff).
+      Built the security platform across 20K+ applications: a vulnerability-management system running 50M+ security checks/month and a Kubernetes policy-as-code engine, cutting incident response time by 40%. Built a unified OAuth 2.0 identity service handling 125M+ API calls/week. Mentored 20+ engineers (8 promoted to senior/staff).
     time: Jan 2022–Mar 2024
   - content: >
       ### JPMorgan Chase — CIB (Mar 2019–Dec 2021) — Senior Software Engineer
 
-      Developed an escrow platform managing $40B+ in deposits and a Saga-pattern payment microservice processing 10K+ daily transactions. Unified three data systems into one portal, reducing support volume by 30%, and built a centralized authentication framework adopted by 18+ CIB teams.
+      Security lead for CIB APIs: built a reusable API security framework (OAuth2, SSO) and a centralized authentication framework used across CIB teams. Also developed an escrow platform and a Saga-pattern payment microservice.
     time: Mar 2019–Dec 2021
   - content: >
       ### American Express — via TCS (Dec 2011–Mar 2019) — Senior Software Developer
