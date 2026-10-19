@@ -7,7 +7,7 @@ client: Wayfair (~20K applications across the platform)
 shortDescription: >
   DevSecOps platform serving 50M+ security checks/month with a 3% false-positive rate.
 challenge: >
-  20K+ applications across the engineering org, no consistent security posture across teams, and a legacy scanner stack pushing a >25% false-positive rate. The combination produced exactly the failure mode you would expect — alert fatigue, ignored findings, and security teams that had stopped being trusted by application teams. The platform needed both new tooling and a new operating model.
+  15 business units, no consistent security posture across teams, and a legacy scanner stack pushing a >25% false-positive rate. The combination produced exactly the failure mode you would expect — alert fatigue, ignored findings, and security teams that had stopped being trusted by application teams. The platform needed both new tooling and a new operating model.
 solution: >
   A Kubernetes-native policy-as-code engine built on OPA and Kyverno, unified OAuth 2.0 with mTLS for service-to-service identity, and centralized SBOM generation. Architected as a self-service platform: teams enrolled, got coverage automatically, and consumed security as a paved-road default rather than a tax imposed on them.
 

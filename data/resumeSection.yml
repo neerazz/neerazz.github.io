@@ -17,29 +17,29 @@ experience:
       First security engineer at Parafin, which has funded $3B+ to 60,000+ small businesses and is joining Stripe. Built the vulnerability-management program from zero (policy, asset tiering, priority matrix, SLA engine). Ran the SOC 2 Type II 2026 program end to end (12 workstreams, 86 controls). Took BC/DR from expired to exercised with a live single-AZ production failover and zero customer impact. Set the org-wide AWS security baseline (tamper-proof CloudTrail with 7-year Object Lock, Security Hub, root MFA) and led the company's first production TLS 1.3 migration. Designed OIDC + PKCE single sign-on for partner integrations and an identity/authorization map across four identity planes. Leads AI governance and MCP tool-access security, built a multi-agent design-review framework used on real ERDs, and is DRI for the annual third-party penetration test and the vendor security review program.
     time: Dec 2025–Present
   - content: >
-      ### Meta — Reality Labs (Jun 2024–Dec 2025) — Staff Software Engineer (IC6)
+      ### Meta — Reality Labs (Jun 2024–Dec 2025) — Staff Software Engineer
 
-      Software supply-chain and build-integrity work for Quest VR and Ray-Ban Meta. Led CI/CD modernization (Project Chesterfield), cutting build time by 35%. Built the Unified Build Model metadata service — the source of truth for AR/VR build artifacts — serving 450M+ requests/day and cutting build-tracking failures from 55K/day to under 500. Built a GenAI-powered migration tool that eliminated 95% of manual migration effort. Mentored 6 senior engineers, 3 of whom were promoted to Staff within 12 months.
+      Build and software supply-chain infrastructure for Quest headsets and Ray-Ban Meta glasses. Tech lead for the Reality Labs CI/CD modernization: 200+ services onboarded through automated migrations with zero production incidents, P50 build time cut 35% and P95 cut 42%. Built the Unified Build Model metadata service, the source of truth for AR/VR build artifacts: 450M+ requests/day and 99% fewer build-tracking failures. Caching and trigger optimization reclaimed 22,000+ compute-hours a month. Built a GenAI migration assistant that removed 95% of manual migration effort. Mentored 6 senior engineers, 3 of whom were promoted to Staff within 12 months.
     time: Jun 2024–Dec 2025
   - content: >
-      ### Raymond James Financial (Apr 2024–Jun 2024) — Lead Software Development Engineer
+      ### Raymond James (Apr 2024–Jun 2024) — Lead Software Development Engineer
 
-      Delivered a document generation platform processing 8K–12K documents/month with 99.2% success rate. Established a 95% code coverage standard and quality culture across a team of 8 engineers.
+      Led a team of 8 engineers on the document-generation and digital-signature platform behind client onboarding across wealth management and corporate banking: Spring Boot microservices for PDF generation, e-signature integration and workflow orchestration, scaled on Docker and Kubernetes on AWS.
     time: Apr 2024–Jun 2024
   - content: >
       ### Wayfair (Jan 2022–Mar 2024) — Technical Architect
 
-      Built the security platform across 20K+ applications: a vulnerability-management system running 50M+ security checks/month and a Kubernetes policy-as-code engine, cutting incident response time by 40%. Built a unified OAuth 2.0 identity service handling 125M+ API calls/week. Mentored 20+ engineers (8 promoted to senior/staff).
+      Security Development team. Built the DevSecOps platform adopted by all 15 Wayfair business units as the company-wide security standard: 50M+ security checks a month and a Kubernetes policy-as-code engine at a 3% false-positive rate. Architected Wayfair's first unified OAuth 2.0 identity service: 125M+ API calls a week at 99.97% uptime. Cut security incident response time 40%. Mentored 20+ engineers (8 promoted to senior/staff).
     time: Jan 2022–Mar 2024
   - content: >
       ### JPMorgan Chase — CIB (Mar 2019–Dec 2021) — Senior Software Engineer
 
-      Security lead for CIB APIs: built a reusable API security framework (OAuth2, SSO) and a centralized authentication framework used across CIB teams. Also developed an escrow platform and a Saga-pattern payment microservice.
+      Electronic Specialty Accounts Portal (ESAP), Corporate & Investment Bank: the client-facing portal JPMorgan escrow clients use to open accounts, transfer funds and issue checks. Joined the team through Mphasis in March 2019 and became a JPMorgan employee in July 2021; by the end I was the portal's core platform and security lead.
     time: Mar 2019–Dec 2021
   - content: >
       ### American Express — via TCS (Dec 2011–Mar 2019) — Senior Software Developer
 
-      Re-engineered monolithic claims and card-processing systems into microservices architecture, achieving 60% complexity reduction and 66% faster API response times. Built event-driven B2B integrations handling 2M+ monthly requests across 15+ carrier partners. Migrated COBOL-based loyalty logic to Spring MVC across 30 international markets. Worked across Bangalore, Montevideo (Uruguay), and Phoenix.
+      Tata Consultancy Services consultant on American Express systems. Re-architected the monolithic International Insurance Services claims application into 5 Java 8 / Spring Boot 2.0 microservices; earlier supported Card Processing on IMS/DB2 mainframes and migrated International Membership Rewards logic from COBOL to Java across 30 markets. Worked in Bangalore, Montevideo (Uruguay) and Phoenix.
     time: Dec 2011–Mar 2019
 
 education:
