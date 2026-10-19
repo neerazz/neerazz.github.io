@@ -2,7 +2,7 @@ baseURL = "https://neerazz.github.io/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
-title = "Neeraj Kumar Singh Beshane — Staff Security Infrastructure Engineer"
+title = "Neeraj Kumar Singh Beshane — Making AI agents safe to trust"
 
 # Main Menu
 [[menu.main]]
@@ -52,7 +52,7 @@ url = "#service"
 weight = 3
 
 [params]
-description = "Staff Security Infrastructure Engineer · AI agent security, Zero Trust, cloud security · Published AI-security researcher · Ex-Meta, JPMorgan, Wayfair"
+description = "Making AI agents safe to trust with real permissions. Staff Security Engineer · Zero Trust and cloud security · Securing the Agentic Stack newsletter · 4 peer-reviewed AI-security papers · Ex-Meta, JPMorgan, Wayfair"
 blogPageURL = "blog"
 contactLink = "contact"
 copyright = "All right reserved copyright © Portio 2021"
